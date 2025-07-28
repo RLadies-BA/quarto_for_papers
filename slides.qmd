@@ -14,7 +14,7 @@ format:
     linkcolor: "#80a9d7"
     incremental: true   
     slide-number: true
-    footer: "https://from-code-paper-with-quarto.netlify.app/"
+    footer: "https://from-code-to-paper-with-quarto.netlify.app/"
     chalkboard: 
       buttons: true
 editor: 
