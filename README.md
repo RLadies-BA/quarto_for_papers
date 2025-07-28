@@ -29,15 +29,6 @@ To follow along, please install:
 
 ------------------------------------------------------------------------
 
-## 📂 Folder Structure
-
--   `slides/` -- Quarto presentation slides (Reveal.js format)\
--   `examples/` -- Code examples and templates for academic writing\
--   `exercises/` -- Hands-on coding activities\
--   `resources/` -- Useful links and tutorials
-
-------------------------------------------------------------------------
-
 ## 🌍 Let's Stay Connected
 
 If you enjoyed the talk and want to learn more about Quarto, R, or reproducible research:
