@@ -1,9 +1,39 @@
 ---
-title: "About"
+title: "Hi I'm Betsy Cohen"
+comments: false
+image: "https://rladiesba.netlify.app/author/betsabe-cohen/avatar_hue039aedc9d3c7fc9c6ebaa365f220822_828839_270x270_fill_lanczos_center_2.png"
+about:
+  template: broadside
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:betsabecohen@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/BetsyCohen
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/betsabe1984/ 
 ---
 
-About this site
+::: {#hero-heading}
+I'm a sociologist from University of Buenos Aires (UBA) specialized in cultural industries and candidate for the Master's Degree in Generation and Analysis of Statistical Information from the National University of Tres de Febrero (UNTREF).
 
-```{r}
-1 + 1
-```
+I specialize in data analysis and generation of evidence-based solutions in both the public and private sectors.
+
+I currently work as an independent data analyst.
+
+**Communities of practice and collectives**
+
+<div>
+
+I'm an active organizer in:  
+- **[RLadies Buenos Aires](https://rladiesba.netlify.app/)**: A global organization that promotes gender diversity in the R community.  
+- **[Núcleo de Innovación Social](https://www.linkedin.com/company/nucleois/)**: I' lead a team focused on research and development across social sciences and technology.  
+
+📬 Get in touch with me:  
+- {{< fa brands linkedin >}} [linkedin.com/in/betsabe1984](https://www.linkedin.com/in/betsabe1984)  
+- {{< fa envelope >}} [betsabecohen@gmail.com](mailto:betsabecohen@gmail.com)
+
+</div>
+:::

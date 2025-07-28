@@ -6,11 +6,13 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.32">
 
   <meta name="author" content="Betsabe Cohen (BA Sociology)">
-  <title>quarto_for_papers – From Code to Paper: Reproducible Research with Quarto</title>
+  <title>From Code to Paper: Reproducible Research with Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -241,12 +243,11 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
 <h2>Over shoulders of giagants</h2>
 <p>This presentation is based on:</p>
 <ul>
+<li class="fragment"><p><a href="https://quarto.org/docs/manuscripts/">Quarto Manuscripts official documentation</a></p></li>
 <li class="fragment"><p>“Slides and materials for the”Reproducible Manuscripts with Quarto” talk at posit::conf(2023). by <a href="https://mine.quarto.pub/manuscripts-conf23/#/title-slide">Mine Çetinkaya-Rundel</a></p></li>
 <li class="fragment"><p>Quarto for Academics <a href="https://www.youtube.com/watch?v=EbAAmrB0luA&amp;list=PL8se4oifL2ThKAU95XXjThAcuCqJr--8I&amp;index=10">video</a> on YouTube by Mine Çetinkaya-Rundel and Posit</p></li>
-<li class="fragment"><p>The Turing Way Community, &amp; Scriberia.</p>
-<ol start="2024" type="1">
-<li class="fragment">on https://book.the-turing-way.org/</li>
-</ol></li>
+<li class="fragment"><p>R/Medicine: Quarto for Reproducible Medical Manuscripts by Mine Cetinkaya-Rundel webinar in youtube <a href="https://www.youtube.com/watch?v=NK1onTLcgY4&amp;t=1228s">video</a></p></li>
+<li class="fragment"><p>The Turing Way Community, &amp; Scriberia.(2024) on https://book.the-turing-way.org/</p></li>
 </ul>
 </section>
 <section>
@@ -389,12 +390,8 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
 <li class="fragment"><p>Write using Pandoc markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.</p></li>
 </ul>
 </section>
-<section id="quarto-workflow" class="slide level2">
-<h2>Quarto Workflow</h2>
-</section></section>
-<section>
-<section id="section" class="title-slide slide level1 center">
-<h1></h1>
+<section id="quarto-general-workflow" class="slide level2">
+<h2>Quarto General Workflow</h2>
 
 <img data-src="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/b5217f2a-f129-4bf9-90dc-c5b9783d0ea8.png?h=f8d3ed40353f4ae6eb77dae39072510c" alt="&quot;Artwork from &quot;Hello, Quarto&quot; keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.&quot;" class="r-stretch quarto-figure-center"><p class="caption">“Artwork from”Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.”</p><aside class="notes">
 <p>If you have worked with RMarkdown before you can think of Quarto as the new and emproved generation of it.</p>
@@ -443,6 +440,8 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
 <li class="fragment"><p>🕸️<strong>Websites and Books</strong></p></li>
 <li class="fragment"><p>📽️<strong>Interactivity</strong></p></li>
 </ul>
+<div class="fragment">
+<p>Take a visit to Quarto Gallery <a href="https://quarto.org/docs/gallery/">here</a></p>
 <aside class="notes">
 <ul>
 <li><p>🗃️<strong>Dynamic Documents</strong>: Generate dynamic output using Python, R, Julia, and Observable. Create reproducible documents that can be regenerated when underlying assumptions or data change.</p></li>
@@ -462,6 +461,7 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</div>
 </section></section>
 <section>
 <section id="a-short-walk-around" class="title-slide slide level1 center">
@@ -472,16 +472,16 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
 <h2>Install Quarto</h2>
 
 <img data-src="img/install_quarto.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="create-a-quarto-file-in-a-project-we-already-have" class="slide level2">
-<h2>Create a Quarto File in a project we already have</h2>
+<section id="create-a-quarto-file-in-a-project-we-already-have-in-our-computer" class="slide level2">
+<h2>Create a Quarto File in a project we already have in our computer</h2>
 
 <img data-src="img/create_qmd_file.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="create-a-new-quarto-project" class="slide level2">
 <h2>Create a New Quarto Project</h2>
 
 <img data-src="img/new_project_wizard_quarto.png" class="quarto-figure quarto-figure-left r-stretch"></section>
-<section id="folder-structure-in-a-quarto-project" class="slide level2">
-<h2>Folder structure in a Quarto Project</h2>
+<section id="general-folder-structure-in-a-quarto-project" class="slide level2">
+<h2>General folder structure in a Quarto Project</h2>
 
 <img data-src="img/quarto_project_schema.png" class="r-stretch"><aside class="notes">
 <p>When we create a Quarto project we’ll automatically create RPorj file (as in any other Quarto project) and a .yml file (for the entire project), my Quarto document (the one that has the .qmd extension.</p>
@@ -558,7 +558,10 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<p><img data-src="img/insert code chunck.gif"> ## Code cuncks options</p>
+
+<img data-src="img/insert code chunck.gif" class="r-stretch"></section>
+<section id="code-cuncks-options" class="slide level2">
+<h2>Code cuncks options</h2>
 <aside class="notes">
 <p>As is RMarkdown Quarto allows us to control different aspects of how chuncks behaver</p>
 <style type="text/css">
@@ -572,15 +575,34 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<p><img data-src="img/quarto-code-chunck-options.png"></p>
+
+<img data-src="img/quarto-code-chunck-options.png" class="r-stretch"></section>
+<section id="code-chuncks-options" class="slide level2 smaller">
+<h2>Code Chuncks Options</h2>
+<p>You can add Quarto options to code cells by adding a #| comment to the top, followed by the option in YAML syntax. For example, adding the echo option with the value true would look like this:</p>
+
+<img data-src="img/quarto-code-chunck-options-2.png" width="848" class="r-stretch"><p>The <code>echo</code> option describes whether the code is included in the rendered article. If you make this change and save index.qmd, you’ll see this code now appears in the article.</p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Code chunck options guide</strong></p>
+</div>
+<div class="callout-content">
+<p>You can find a list of all the code cell options available on the&nbsp;Knitr Code Cell&nbsp;reference page at <a href="https://quarto.org/docs/reference/cells/cells-knitr.html" class="uri">https://quarto.org/docs/reference/cells/cells-knitr.html</a></p>
+</div>
+</div>
+</div>
 </section>
 <section id="code-cuncks-options-from-yaml" class="slide level2">
 <h2>Code cuncks options from YAML</h2>
 
 <img data-src="img/quarto-code-chunck-options-yml.png" class="r-stretch"></section></section>
 <section>
-<section id="quarto-for-journal-articles" class="title-slide slide level1 center">
-<h1>Quarto for journal articles</h1>
+<section id="quarto-for-manuscripts-and-journal-articles" class="title-slide slide level1 center">
+<h1>Quarto for manuscripts and journal articles</h1>
 
 </section>
 <section id="quarto-can" class="slide level2">
@@ -594,18 +616,53 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
 <li class="fragment"><p>publish to GitHub Pages, Netlify, and more</p></li>
 </ul>
 </section>
-<section id="lets-get-started-with-a-manuscript" class="slide level2">
-<h2>Let’s get started with a manuscript</h2>
-<h3 id="option-1-start-from-scratch">Option 1: Start from scratch</h3>
+<section id="journals-vs-manuscripts" class="slide level2">
+<h2>Journals vs Manuscripts</h2>
+<p>In Quarto, a <strong>journal</strong> refers to a <strong>single document</strong>, potentially with embedded computations and visualizations, designed for publication in a journal format.</p>
+<p>A <strong>manuscript</strong>, on the other hand, represents <strong>a collection of Quarto documents</strong>, potentially including multiple chapters, that are intended to be assembled into a book-like structure.</p>
+</section>
+<section id="journals" class="slide level2">
+<h2>Journals</h2>
+<p>If you just want to create one Quarto document for your journal you can find some templates in the gihgub repo.</p>
+
+<img data-src="img/quarto-journal-templates.png" class="r-stretch"></section>
+<section id="intsalling-the-templates-from-your-terminal" class="slide level2">
+<h2>Intsalling the templates from your terminal</h2>
+
+<img data-src="img/create-journal-project-from-terminal.gif" class="r-stretch"></section>
+<section id="how-doed-the-journal-template-file-looks-like" class="slide level2">
+<h2>How doed the journal template file looks like</h2>
+
+<img data-src="img/journal-project-created-from-template.png" class="r-stretch"></section>
+<section id="rendering-a-journal-paper" class="slide level2">
+<h2>Rendering a Journal paper</h2>
+
+<img data-src="img/journal-paper-render.gif" class="r-stretch"></section>
+<section id="getting-started-with-a-manuscript-create-a-manuscript-project" class="slide level2">
+<h2>Getting started with a manuscript: create a manuscript project</h2>
+<aside class="notes">
+<p>All the things that we are going to see can also apply to Journal paper the only difference remain on the complexity and structrure of the folders.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<ul>
+<li class="fragment"><p><strong>Start from scratch</strong></p>
 <ul>
 <li class="fragment">in your terminal write <code>quarto create project manuscript &lt;name&gt;</code></li>
+<li class="fragment">then start adding manuscipt content or…</li>
+</ul></li>
+<li class="fragment"><p><strong>Start with a sample from <a href="https://quarto.org/docs/manuscripts" class="uri">https://quarto.org/docs/manuscripts</a></strong></p></li>
 </ul>
-<!-- -->
-<ul>
-<li class="fragment">Add manuscript content</li>
-</ul>
-<h3 id="option-2-start-with-a-sample-from">Option 2: Start with a sample from</h3>
-<p><a href="https://quarto.org/docs/manuscripts" class="uri">https://quarto.org/docs/manuscripts</a></p>
+<p><br></p>
+<div class="fragment">
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -619,52 +676,12 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
 </div>
 </div>
 </div>
-</section>
-<section id="quarto-manuscript-folder-structure" class="slide level2">
-<h2>Quarto manuscript folder structure</h2>
-
-<img data-src="img/manuscript-project-created.png" class="r-stretch"></section>
-<section id="the-manuscript-_quarto.yml" class="slide level2">
-<h2>The manuscript _quarto.yml</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>project<span class="sc">:</span></span>
-<span id="cb1-2"><a></a>  type<span class="sc">:</span> manuscript</span>
-<span id="cb1-3"><a></a></span>
-<span id="cb1-4"><a></a>manuscript<span class="sc">:</span></span>
-<span id="cb1-5"><a></a>  article<span class="sc">:</span> index.qmd</span>
-<span id="cb1-6"><a></a></span>
-<span id="cb1-7"><a></a>format<span class="sc">:</span></span>
-<span id="cb1-8"><a></a>  html<span class="sc">:</span></span>
-<span id="cb1-9"><a></a>    comments<span class="sc">:</span></span>
-<span id="cb1-10"><a></a>      hypothesis<span class="sc">:</span> true</span>
-<span id="cb1-11"><a></a>  docx<span class="sc">:</span> default</span>
-<span id="cb1-12"><a></a>  jats<span class="sc">:</span> default</span>
-<span id="cb1-13"><a></a></span>
-<span id="cb1-14"><a></a>  <span class="co"># (other formats)</span></span>
-<span id="cb1-15"><a></a>  <span class="co"># pdf: default</span></span>
-<span id="cb1-16"><a></a></span>
-<span id="cb1-17"><a></a>execute<span class="sc">:</span></span>
-<span id="cb1-18"><a></a>  freeze<span class="sc">:</span> true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<!--# seguir el ejercicio desde https://youtu.be/NK1onTLcgY4?si=q-SmrT8qLB1s2V1J&t=1228 -->
 </section>
-<section id="how-does-it-look-like-once-render" class="slide level2">
-<h2>How does it look like once render?</h2>
-<iframe src="https://dragonstyle.github.io/submission-quarto-lite-r/" title="La Palma Earthquakes" width="1100px" height="600px"></iframe>
-</section>
-<section id="your-turn" class="slide level2">
-<h2>Your turn!</h2>
-<p>Create a Quarto manuscript from your terminal</p>
-
-<img data-src="img/create-project-from-terminal.png" class="r-stretch"><p>Take a look at</p>
-</section>
-<section id="setting" class="slide level2">
-<h2>Setting</h2>
-<p>What’s next? Actually dive into the code We’ve seen that you can peruse the code underlying the figures and tables in the manuscript</p>
-<p>What if you wanted to interact with the code – in a computational environment that’s just a click away and that has all the software and packages needed to reproduce the manuscript?</p>
-
-<img data-src="img/console-clone-repo.png" class="r-stretch"><aside class="notes">
-<p>As I asume you do noit have experience working with git hub we’re gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts. If you are familiarizedf eith github you’ll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section.</p>
+<section id="your-turn-option-1" class="slide level2">
+<h2>Your Turn! Option 1</h2>
+<aside class="notes">
+<p>As I asume that maybe not all of you have experience working with git hub we’re gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts. If you are familiarizedf eith github you’ll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section. Go to your RStudio Terminal and create a new project from scratch by tiping the following text.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -676,6 +693,498 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<p>If you already have a peper of your own (with differnt r files with code) go to your RStudio Terminal and create a new project from scratch</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Terminal</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a></a><span class="ex">quarto</span> create project manuscript indo-rct</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a><span class="ex">Creating</span> project at /Users/mine/indo-rct:</span>
+<span id="cb1-4"><a></a>  <span class="ex">-</span> Created _quarto.yml</span>
+<span id="cb1-5"><a></a>  <span class="ex">-</span> Created index.qmd</span>
+<span id="cb1-6"><a></a>  <span class="ex">-</span> Created references.bib</span>
+<span id="cb1-7"><a></a> <span class="ex">?</span> Open With</span>
+<span id="cb1-8"><a></a>   <span class="ex">vscode</span></span>
+<span id="cb1-9"><a></a> <span class="ex">❯</span> rstudio</span>
+<span id="cb1-10"><a></a>   <span class="kw">(</span><span class="ex">don</span><span class="st">'t open)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="your-turn-option-2" class="slide level2 smaller">
+<h2>Your Turn! Option 2</h2>
+<p>If you wanna follow along the same structure we are going to you can copy the repo from github repo</p>
+<p>https://github.com/quarto-ext/manuscript-template-rstudio/tree/main</p>
+<p><img data-src="img/manuscript-github-sample.png">{fig-align = “center”}</p>
+</section>
+<section id="your-turn-redy-steady-go" class="slide level2">
+<h2>Your turn!: Redy steady go!</h2>
+<p>👍 Please sign me with when you are ready.</p>
+
+<img data-src="https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif" class="r-stretch"></section>
+<section id="quarto-manuscript-minimal-folder-structure" class="slide level2">
+<h2>Quarto manuscript: minimal folder structure</h2>
+<aside class="notes">
+<p>When we create a project from scratch Wuarto creates a minimal project structure, that includes a _quarto.yml the index.qmd notebook (where we’ll write the manuscript) and a reference.bib for the citiations and reference we’ll use along our paper.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+<img data-src="img/manuscript-project-created.png" class="quarto-figure quarto-figure-center r-stretch" width="640"></section>
+<section id="quarto-manuscript-minimal-manuscript-_quarto.yml" class="slide level2">
+<h2>Quarto manuscript: minimal manuscript _quarto.yml</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>_quarto.yml</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-filename="_quarto.yml"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb2-2"><a></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> manuscript</span></span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a><span class="fu">manuscript</span><span class="kw">:</span></span>
+<span id="cb2-5"><a></a><span class="at">  </span><span class="fu">article</span><span class="kw">:</span><span class="at"> index.qmd</span></span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb2-8"><a></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb2-9"><a></a><span class="at">    </span><span class="fu">comments</span><span class="kw">:</span></span>
+<span id="cb2-10"><a></a><span class="at">      </span><span class="fu">hypothesis</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb2-11"><a></a><span class="at">  </span><span class="fu">docx</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb2-12"><a></a><span class="at">  </span><span class="fu">jats</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb2-13"><a></a></span>
+<span id="cb2-14"><a></a><span class="co">  # (other formats)</span></span>
+<span id="cb2-15"><a></a><span class="co">  # pdf: default</span></span>
+<span id="cb2-16"><a></a><span class="fu">execute</span><span class="kw">:</span></span>
+<span id="cb2-17"><a></a><span class="at">  </span><span class="fu">freeze</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<aside class="notes">
+<p>If we take a look at _YAML file we hace project type and an article is the index.qmd</p>
+<p>we can also see that we have a format part with bunch of formats: an html , a docx and a jats tof all of your documents that some of the uh journals um accept grabbing this archive um that goes along uh with the with your uh manuscript to sort of have a full um Archive of all of the work that has gone into that project. and we can do other formats as PDF.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="basic-workflow" class="slide level2">
+<h2>Basic workflow</h2>
+<p>The basic workflow for writing a manuscript in Quarto is to make changes to your article content (the index.qmd if you are following the example), preview the changes with Quarto, and repeat.</p>
+
+<img data-src="https://quarto.org/docs/manuscripts/authoring/images/rstudio-render-button.png" class="r-stretch"></section>
+<section id="how-does-it-look-like-once-render" class="slide level2">
+<h2>How does it look like once render?</h2>
+<iframe src="https://dragonstyle.github.io/submission-quarto-lite-r/" title="La Palma Earthquakes" width="1100px" height="600px"></iframe>
+<aside class="notes">
+<p>so this is how the final product will look like so we have a bunch of <strong>matadata</strong> regarding autihring, title, pushinjg date, the orher formas, some links that will leadme to the <strong>github repositorory</strong> as a <strong>Binder</strong> link, a <strong>TOC</strong> that I get by default, and embeded notebook that. Also we can see some <strong>Quarto fetaures</strong> like <strong>Figures refrences</strong>, equiations.</p>
+<p>Another cool feature is the hypotesis option thatyou can asee as we higlight some text and Quarto will let you higlight some text and add some annotations,</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="your-turn-render-your-first-qmd-manuscript" class="slide level2">
+<h2>Your Turn: Render your first qmd manuscript</h2>
+<ul>
+<li class="fragment">Open index.qmd.</li>
+<li class="fragment">Render and preview the manuscript by hitting the Render button located in the menu bar of the editor</li>
+<li class="fragment">You’ll see some output from Quarto in the Background Jobs pane and then a live preview will appear in the Viewer pane.</li>
+<li class="fragment">Change the title of your index.qmd</li>
+<li class="fragment">Save the file, re-render, and you’ll see the preview update.</li>
+</ul>
+</section>
+<section id="your-turn-redy-steady-go-1" class="slide level2">
+<h2>Your turn!: Redy steady go!</h2>
+<p>👍 Please sign me with when you are ready.</p>
+</section>
+<section id="one-qmd-to-rule-all-formats" class="slide level2">
+<h2>One qmd to rule all formats</h2>
+<p><img data-src="img/manuscript-other-formats.png">{fig-align = “center”}</p>
+<aside class="notes">
+<p>As we says before we can get multiple formats fropm one qmd file. In order to get this we are get this we just have to add some .lines un our _quarto.yml file</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="one-qmd-to-rule-all-formats-1" class="slide level2">
+<h2>One qmd to rule all formats</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>_quarto.yml</strong></pre>
+</div>
+<div class="sourceCode" id="cb3" data-filename="_quarto.yml"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb3-2"><a></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb3-3"><a></a><span class="at">    </span><span class="fu">comments</span><span class="kw">:</span></span>
+<span id="cb3-4"><a></a><span class="at">      </span><span class="fu">hypothesis</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb3-5"><a></a><span class="at">  </span><span class="fu">docx</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb3-6"><a></a><span class="at">  </span><span class="fu">jats</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb3-7"><a></a><span class="at">  </span><span class="fu">plos-pdf</span><span class="kw">:</span></span>
+<span id="cb3-8"><a></a><span class="at">    </span><span class="fu">keep-tex</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<aside class="notes">
+<p>I Have 4 outputs that are listed the html that is the one that we are looking but qwe also have de docx, the jats and the pdf. The comments hypotesis true alllows to activate for my html file, so it allows to add the comments as we have seen before and for the pdf we also have differnt options in order to kepp the reproductibility: we can keep the the markdown files genreates (keep-md), the notbook files genreated (keep-ipynd), or as I’m choosimg here the intermediate text files that are genrested. Which I find especially helpful as I work on a manuscript every once in a while there are some tech error that I’m only able to resolve by simply opening the tech document itself and rendering that and trying to look at the log of it so it’s helpful to have that intermediary file available it also is one other way you can share with your collaborators again who may not be the people writing code but who might be familiar with latch additionally in the index. qmd file</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="setting-the-front-matter-of-your-index.qmd" class="slide level2">
+<h2>Setting the <strong>Front matter</strong> of your index.qmd</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>_index.qmd</strong></pre>
+</div>
+<div class="sourceCode" id="cb4" data-filename="_index.qmd"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a></a></span>
+<span id="cb4-2"><a></a><span class="fu">title</span><span class="kw">:</span><span class="at"> La Palma Earthquakes</span></span>
+<span id="cb4-3"><a></a><span class="fu">author</span><span class="kw">:</span></span>
+<span id="cb4-4"><a></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Steve Purves</span></span>
+<span id="cb4-5"><a></a><span class="at">    </span><span class="fu">orcid</span><span class="kw">:</span><span class="at"> 0000-0002-0760-5497</span></span>
+<span id="cb4-6"><a></a><span class="at">    </span><span class="fu">corresponding</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb4-7"><a></a><span class="at">    </span><span class="fu">email</span><span class="kw">:</span><span class="at"> steve@curvenote.com</span></span>
+<span id="cb4-8"><a></a><span class="at">    </span><span class="fu">roles</span><span class="kw">:</span></span>
+<span id="cb4-9"><a></a><span class="at">      </span><span class="kw">-</span><span class="at"> Investigation</span></span>
+<span id="cb4-10"><a></a><span class="at">      </span><span class="kw">-</span><span class="at"> Project administration</span></span>
+<span id="cb4-11"><a></a><span class="at">      </span><span class="kw">-</span><span class="at"> Software</span></span>
+<span id="cb4-12"><a></a><span class="at">      </span><span class="kw">-</span><span class="at"> Visualization</span></span>
+<span id="cb4-13"><a></a><span class="at">    </span><span class="fu">affiliations</span><span class="kw">:</span></span>
+<span id="cb4-14"><a></a><span class="at">      </span><span class="kw">-</span><span class="at"> Curvenote</span></span>
+<span id="cb4-15"><a></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Rowan Cockett</span></span>
+<span id="cb4-16"><a></a><span class="at">    </span><span class="fu">orcid</span><span class="kw">:</span><span class="at"> 0000-0002-7859-8394</span></span>
+<span id="cb4-17"><a></a><span class="at">    </span><span class="fu">corresponding</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb4-18"><a></a><span class="at">    </span><span class="fu">roles</span><span class="kw">:</span><span class="at"> </span><span class="kw">[]</span></span>
+<span id="cb4-19"><a></a><span class="at">    </span><span class="fu">affiliations</span><span class="kw">:</span></span>
+<span id="cb4-20"><a></a><span class="at">      </span><span class="kw">-</span><span class="at"> Curvenote</span></span>
+<span id="cb4-21"><a></a><span class="fu">keywords</span><span class="kw">:</span></span>
+<span id="cb4-22"><a></a><span class="at">  </span><span class="kw">-</span><span class="at"> La Palma</span></span>
+<span id="cb4-23"><a></a><span class="at">  </span><span class="kw">-</span><span class="at"> Earthquakes</span></span>
+<span id="cb4-24"><a></a><span class="fu">abstract</span><span class="kw">: </span><span class="ch">|</span></span>
+<span id="cb4-25"><a></a>  In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...</span>
+<span id="cb4-26"><a></a><span class="fu">plain-language-summary</span><span class="kw">: </span><span class="ch">|</span></span>
+<span id="cb4-27"><a></a>  Earthquake data for the island of La Palma from the September 2021 eruption is found ...</span>
+<span id="cb4-28"><a></a><span class="fu">key-points</span><span class="kw">:</span></span>
+<span id="cb4-29"><a></a><span class="at">  </span><span class="kw">-</span><span class="at"> A web scraping script was developed to pull data from the Instituto Geogràphico Nacional into a machine-readable form for analysis</span></span>
+<span id="cb4-30"><a></a><span class="at">  </span><span class="kw">-</span><span class="at"> Earthquake events on La Palma are consistent with the presence of both mantle and crustal reservoirs.</span></span>
+<span id="cb4-31"><a></a><span class="fu">date</span><span class="kw">:</span><span class="at"> last-modified</span></span>
+<span id="cb4-32"><a></a><span class="fu">bibliography</span><span class="kw">:</span><span class="at"> references.bib</span></span>
+<span id="cb4-33"><a></a><span class="fu">citation</span><span class="kw">:</span></span>
+<span id="cb4-34"><a></a><span class="at">  </span><span class="fu">container-title</span><span class="kw">:</span><span class="at"> Earth and Space Science</span></span>
+<span id="cb4-35"><a></a><span class="fu">number-sections</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb4-36"><a></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<aside class="notes">
+<p>So apart from the obvous as the title we can set here the outaurs with all tge information about them as the affiliation their orcid email, the roles they have in the project, thir email, also we can add the keyword for our paper, as well as the abstract, date, as well as the refereces document for bibliography and, and citations.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="using-computations-in-the-body-of-youtr-text" class="slide level2">
+<h2>Using computations in the body of youtr text</h2>
+<p>You can use computed values directly in your article text using the syntax <code>`{r} expr`</code>. For example, consider this line in <code>index.qmd</code>:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a></a>Based on data up to and including 1971, eruptions on La Palma happen every <span class="in">`{r} round(avg_years_between_eruptions, 1)`</span> years on average.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>When rendered, it displays as:</p>
+<div class="fragment">
+<blockquote>
+<p>Based on data up to and including 1971, eruptions on La Palma happen every 79.8 years on average.</p>
+</blockquote>
+</div>
+</section>
+<section id="code-chuncks-for-computations-using-the-lable-and-fig--options" class="slide level2">
+<h2>Code chuncks for computations using the <code>lable</code> and <code>fig-</code> options</h2>
+<aside class="notes">
+<p>So we have already seen the echo option and that we can embeded calculations and references. In this chunck the label option is used to add an identifier to code cell and its output, for example to allow cross referencing. The prefix fig- is required for figure cross references, but the suffix, in this case timeline, is up to you. We’ll get back to Cross References in a moment, but for now the import thing is to understand that the option fig-cap provides the caption text displayed below the figure in the manuscript, and fig-alt provides alt text for the figure, helping your manuscript webpage to meet accessibility guidelines.</p>
+<p>Computations are also a good way to include tables based on data. You can read more about doing this in the Quarto documentation on Tables from Computations.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a></a><span class="in">```{r}</span></span>
+<span id="cb6-2"><a></a><span class="co">#| label: fig-timeline</span></span>
+<span id="cb6-3"><a></a><span class="co">#| fig-cap: Timeline of recent earthquakes on La Palma</span></span>
+<span id="cb6-4"><a></a><span class="co">#| fig-alt: An event plot of the years of the last 8 eruptions on La Palma.</span></span>
+<span id="cb6-5"><a></a><span class="co">#| fig-height: 1.5</span></span>
+<span id="cb6-6"><a></a><span class="co">#| fig-width: 6</span></span>
+<span id="cb6-7"><a></a><span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>) <span class="sc">+</span> <span class="fl">0.1</span>)</span>
+<span id="cb6-8"><a></a><span class="fu">plot</span>(</span>
+<span id="cb6-9"><a></a>  eruptions, <span class="fu">rep</span>(<span class="dv">0</span>, n_eruptions), </span>
+<span id="cb6-10"><a></a>  <span class="at">pch =</span> <span class="st">"|"</span>, <span class="at">axes =</span> <span class="cn">FALSE</span></span>
+<span id="cb6-11"><a></a>)</span>
+<span id="cb6-12"><a></a><span class="fu">axis</span>(<span class="dv">1</span>)</span>
+<span id="cb6-13"><a></a><span class="fu">box</span>()</span>
+<span id="cb6-14"><a></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="citations" class="slide level2">
+<h2>Citations</h2>
+<aside class="notes">
+<p>To add citations you need a bibliography file, .bib, containing the citation data. You can specify this file in the document YAML with the bibliography option. For example, the citation data for index.qmd is stored in references.bib</p>
+<p>The file references.bib contains only one citation and it looks something like this</p>
+<p>To cite an article from the bibliography in your text, you use @ followed by the citation identifier, e.g.&nbsp;marrero2019. For example, the article includes this line citing this reference will read something like</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>references.bib</strong></pre>
+</div>
+<div class="sourceCode" id="cb7" data-filename="references.bib"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb7-1"><a></a><span class="at">@article{marrero2019,</span></span>
+<span id="cb7-2"><a></a><span class="at">  author = {Marrero, Jos{\' e} and Garc{\' i}a, Alicia and Berrocoso, Manuel and Llinares, {\' A}ngeles and Rodr{\' i}guez-Losada, Antonio and Ortiz, R.},</span></span>
+<span id="cb7-3"><a></a><span class="at">  journal = {Journal of Applied Volcanology},</span></span>
+<span id="cb7-4"><a></a><span class="at">  year = {2019},</span></span>
+<span id="cb7-5"><a></a><span class="at">  month = {7},</span></span>
+<span id="cb7-6"><a></a><span class="at">  pages = {},</span></span>
+<span id="cb7-7"><a></a><span class="at">  </span><span class="fu">title = {Strategies for the development of volcanic hazard maps in monogenetic volcanic fields</span><span class="kw">:</span><span class="at"> the example of {La} {Palma} ({Canary} {Islands})},</span></span>
+<span id="cb7-8"><a></a><span class="at">  volume = {8},</span></span>
+<span id="cb7-9"><a></a><span class="at">  doi = {10.1186/s13617-019-0085-5},</span></span>
+<span id="cb7-10"><a></a><span class="at">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="citations-1" class="slide level2 smaller">
+<h2>Citations</h2>
+<p><br></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a></a>Studies of the magma systems feeding the volcano, such as @marrero2019, have proposed ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br></p>
+<p>When rendered, it displays as:</p>
+<div class="fragment">
+<blockquote>
+<p>Studies of the magma systems feeding the volcano, such as Marrero et al.&nbsp;(2019), have proposed …</p>
+</blockquote>
+<p><br></p>
+<p>and when hovering over the citation text it reveals the full reference details allowing reader to click on the citation and take it to the reference in the References section at the end of the article:</p>
+</div>
+<div class="fragment">
+<p><img data-src="https://quarto.org/docs/manuscripts/authoring/images/article-references.png"></p>
+</div>
+</section>
+<section id="citations-2" class="slide level2">
+<h2>Citations</h2>
+<p>Another common style is to place the citation within parentheses at the end of a sentence. You can achieve this by enclosing the citation syntax in square brackets [. For example,</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a></a>A prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano <span class="co">[</span><span class="ot">@marrero2019</span><span class="co">]</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br></p>
+<p>When rendered, it displays as:</p>
+<div class="fragment">
+<blockquote>
+<p>A prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al.&nbsp;2019).</p>
+</blockquote>
+</div>
+<div class="fragment">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Quarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="your-turn-add-a-citation-to-your-bib-file-and-use-it" class="slide level2">
+<h2>Your Turn! Add a citation to your bib file and use it</h2>
+<ul>
+<li class="fragment">Go to your bib file and add a citation</li>
+<li class="fragment">Go back to your index.qmd file and use the citation</li>
+<li class="fragment">Render your file and chevck the changes</li>
+</ul>
+</section>
+<section id="your-turn-redy-steady-go-2" class="slide level2">
+<h2>Your turn!: Redy steady go!</h2>
+<p>👍 Please sign me with when you are ready.</p>
+
+<img data-src="https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif" class="r-stretch"></section>
+<section id="cross-references" class="slide level2">
+<h2>Cross References</h2>
+<aside class="notes">
+<p>Quarto can generate cross references that keep track of numbering and linking for you. The general syntax for a cross reference is an <code>@</code> followed by a <code>label</code>. For example, to reference the timeline figure, you could write: To render the cross references you have to include a word to indicate the type of object being referenced, like “Figure” or “Table”, so this:</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p>Labeled as…</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb10-1"><a></a>@fig-timeline</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Should be use used as</p>
+<div class="fragment">
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a></a>Eight eruptions have been recorded since the late 1400s (@fig-timeline).</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>And will look something like</p>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Eight eruptions have been recorded since the late 1400s (Figure 1).</p>
+</blockquote>
+</div>
+</section>
+<section id="cross-references-element-and-prefix" class="slide level2">
+<h2>Cross References element and prefix</h2>
+<ul>
+<li class="fragment"><p>Figure <code>fig-</code> and will render as <strong>Figure 1</strong></p></li>
+<li class="fragment"><p>Table <code>tbl-</code> and will render as <strong>Table 1</strong></p></li>
+<li class="fragment"><p>Equation <code>eq-</code> and will render as <strong>Equation 1</strong></p></li>
+<li class="fragment"><p>Section <code>sec-</code> and will render as <strong>Section 1</strong></p></li>
+</ul>
+<div class="fragment">
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Warning</strong></p>
+</div>
+<div class="callout-content">
+<p>To cross reference sections your document YAML header must also include <code>number-sections: true</code> You can add a label to a section heading in curly braces after the heading, e.g <code>## Data &amp; Methods {#sec-data-methods}</code> and the you can then reference this section in the text by adding the text and the @ reference like <code>Data and methods are discussed in @sec-data-methods.</code> <br></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="cross-reference-tip-use-the-visual-mode-to-add-cross-reference" class="slide level2">
+<h2>Cross Reference Tip: Use the visual mode to add cross reference</h2>
+
+<img data-src="img/manuscript-cross-reference-visual-mode.gif" class="r-stretch"></section>
+<section id="static-figues-and-images" class="slide level2">
+<h2>Static Figues and images</h2>
+<p>To include a figure from a file, the markdown syntax looks like:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a></a><span class="al">![Map of La Palma](images/la-palma-map.png)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>By using #fig-name-of-image inside curly braces following the image path you can provide the reader a label for cross references. For eg.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a></a><span class="al">![Map of La Palma](images/la-palma-map.png)</span>{#fig-map fig-alt="A map of the Canary Islands. The second most west island, La Palma, is highlighted."}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>It is recomended to store your in an folder named images/. Your images can be anywhere inside your manuscript project directory, just make sure you include the full path to the image, relative to the location of <code>index.qmd.</code></p>
+</div>
+</div>
+</div>
+</section>
+<section id="authring-embeded-code-from-other-notebooks" class="slide level2">
+<h2>Authring embeded code from other notebooks</h2>
+<aside class="notes">
+<p>We can do all the calculations in another notebook (it can be r document but it coould be also be a python notebook if you already are wrking with python) and we can embeded that into outr paper, by refereing to it the codechunck options and embeded notebook options</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb14-1"><a></a><span class="in">```{r}</span></span>
+<span id="cb14-2"><a></a>{{<span class="sc">&lt;</span> embed notebooks<span class="sc">/</span>explore<span class="sc">-</span>earthquakes.qmd<span class="co">#fig-spatial-plot &gt;}}</span></span>
+<span id="cb14-3"><a></a><span class="st">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li class="fragment">Create a folder for your notbooks</li>
+<li class="fragment">Add notebooks for calculations/ charts results, etc.</li>
+<li class="fragment">Add refreces in your manuscript index.qmd</li>
+<li class="fragment">Use figures with fig- labels</li>
+</ul>
+</section>
+<section id="authring-embeded-code-from-other-notebooks-1" class="slide level2">
+<h2>Authring embeded code from other notebooks</h2>
+
+<img data-src="img/manuscript-emebeded-notebook-figures.gif" class="r-stretch"></section>
+<section id="publising" class="slide level2">
+<h2>Publising</h2>
+<p>To publish your site on GitHub Pages simply tipe</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Terminal</strong></pre>
+</div>
+<div class="sourceCode" id="cb15" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a></a><span class="ex">quarto</span> publish</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Choose GitHub Pages or the platform you prefer.</p>
+<p>You can learn more about publishing at https://quarto.org/docs/publishing/</p>
+</section>
+<section id="what-else-can-i-do-with-quarto-presentations" class="slide level2">
+<h2>What else can I do with Quarto? Presentations 📺</h2>
+<iframe src="https://apreshill.github.io/palmerpenguins-useR-2022/#/title-slide" title="Presentations like The untold story of palmerpenguins" width="1100px" height="600px"></iframe>
+</section>
+<section id="what-else-can-i-do-with-quarto-dasboards" class="slide level2">
+<h2>What else can I do with Quarto? Dasboards! 📈</h2>
+<iframe src="https://mine-cetinkaya-rundel.github.io/ld-dashboard/" title="Dashboards like this one by Mine Cetinkaya" width="1100px" height="600px"></iframe>
+</section>
+<section id="what-else-can-i-do-with-quarto-your-personal-website" class="slide level2">
+<h2>What else can I do with Quarto? Your Personal website 🌐</h2>
+<iframe src="https://www.mm218.dev/" title="Your Personal Website like Mike Mahoney" width="1100px" height="600px"></iframe>
+</section>
+<section id="what-else-can-i-do-with-quarto-your-first-book" class="slide level2">
+<h2>What else can I do with Quarto? Your First Book 📖</h2>
+<iframe src="https://r4pde.netlify.app/" title="Your Book like R for Plant Disease Epidemiology by Emerson M. Del Ponte" width="1100px" height="600px"></iframe>
+</section>
+<section id="thank-you" class="slide level2 bigtext">
+<h2>Thank you!</h2>
+<p><i class="fa-brands fa-linkedin" aria-label="linkedin"></i> <a href="https://www.linkedin.com/in/betsabe1984">www.linkedin.com/in/betsabe1984</a> <br> <i class="fa-solid fa-envelope" title="An envelope" aria-label="envelope"></i> <a href="mailito:betsabecohen@gmail.com">betsabecohen@gmail.com</a></p>
 
 
 </section></section>
@@ -896,82 +1405,6 @@ Núcleo de Innovación Social</strong>: An interdisciplinary research and develo
         ]
       });
     </script>
-    
-
-    <script>
-
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-
-      // slide changes (different for each slide format).
-
-      (function () {
-
-        // dispatch for htmlwidgets
-
-        function fireSlideEnter() {
-
-          const event = window.document.createEvent("Event");
-
-          event.initEvent("slideenter", true, true);
-
-          window.document.dispatchEvent(event);
-
-        }
-
-    
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          fireSlideEnter();
-
-    
-
-          // dispatch for shiny
-
-          if (window.jQuery) {
-
-            if (previousSlide) {
-
-              window.jQuery(previousSlide).trigger("hidden");
-
-            }
-
-            if (currentSlide) {
-
-              window.jQuery(currentSlide).trigger("shown");
-
-            }
-
-          }
-
-        }
-
-    
-
-        // hookup for slidy
-
-        if (window.w3c_slidy) {
-
-          window.w3c_slidy.add_observer(function (slide_num) {
-
-            // slide_num starts at position 1
-
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-
-          });
-
-        }
-
-    
-
-      })();
-
-    </script>
-
-    
-
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

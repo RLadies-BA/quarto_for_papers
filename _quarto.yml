@@ -2,14 +2,14 @@ project:
   type: website
 
 website:
-  title: "quarto_for_papers"
+  title: "From Code to Paper: Reproducible Research with Quarto"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
       - href: slides.qmd
-        text: slides
+        text: Slides
 
 format:
   html:
