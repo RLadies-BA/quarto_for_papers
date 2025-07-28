@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 10d524b5-6d15-4b1f-abcf-ad65c8898be6
+      url: https://from-code-paper-with-quarto.netlify.app/
