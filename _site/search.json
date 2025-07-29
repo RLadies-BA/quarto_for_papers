@@ -4,14 +4,14 @@
     "href": "slides.html#hello-hola-namaste",
     "title": "From Code to Paper: Reproducible Research with Quarto",
     "section": "Hello/ Hola!/ Namaste",
-    "text": "Hello/ Hola!/ Namaste\n\n\n\n\nMy name is Betsabé Cohen I’m a sociologist and data analyst from Buenos Aires Argentina.\n👩🏻‍🎓 I am currently a Masters student in Statistics at University of Tres de Febrero.\n\nI’m currently organizer at:\n\nRLadies Buenos Aires: A global organisation that promotes gender diversity in the R community\n\nNúcleo de Innovación Social: An interdisciplinary research and development team in social sciences and technology."
+    "text": "Hello/ Hola!/ Namaste\n\n\n\n\nMy name is Betsabé Cohen I’m a sociologist and data analyst from Buenos Aires Argentina.\n👩🏻‍🎓 I am currently a Masters student in Statistics at University of Tres de Febrero.\n\nI’m currently organizer at:\n\nRLadies Buenos Aires: A global organisation that promotes gender diversity in the R community\n\nNúcleo de Innovación Social: An inter-disciplinary research and development team in social sciences and technology."
   },
   {
     "objectID": "slides.html#agenda",
     "href": "slides.html#agenda",
     "title": "From Code to Paper: Reproducible Research with Quarto",
     "section": "Agenda",
-    "text": "Agenda\n\nWhy Reproducibility?\nWhat is Quarto?\nCore Use Cases\nAcademic Production with Quarto Manuscripts\nTips on Practical Reproducibility: GitHub Integration\nHands-on Coding\nLearning More & Getting Involved"
+    "text": "Agenda\n\nWhy Reproducibility?\nWhat is Quarto?\nCore Use Cases: a short walk around\nAcademic Production with Quarto Journal and Manuscripts\n\nJournal Templates\nQuarto Manuscript Projects\nCitations, Cross references, and authoring\n\nLearning More"
   },
   {
     "objectID": "slides.html#over-shoulders-of-giagants",
@@ -46,7 +46,7 @@
     "href": "slides.html#analyze.-share.-reproduce",
     "title": "From Code to Paper: Reproducible Research with Quarto",
     "section": "Analyze. Share. Reproduce",
-    "text": "Analyze. Share. Reproduce\n\nAn open-source scientific and technical publishing system\nCreate dynamic content with Python, R, Julia, and Observable.\nPublish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.\nShare knowledge and insights organization-wide by publishing to Posit Connect, Confluence, or other publishing systems.\nWrite using Pandoc markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more."
+    "text": "Analyze. Share. Reproduce\n\nAn open-source scientific and technical publishing system\nCreate dynamic content with Python, R, Julia, and Observable.\nPublish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, e Pub, and more.\nShare knowledge and insights organization-wide by publishing to Posit Connect, Confluence, or other publishing systems.\nWrite using Pandoc markdown, including equations, citations, cross refs, figure panels, call-outs, advanced layout, and more."
   },
   {
     "objectID": "slides.html#quarto-general-workflow",
@@ -150,22 +150,22 @@
     "objectID": "slides.html#quarto-can",
     "href": "slides.html#quarto-can",
     "title": "From Code to Paper: Reproducible Research with Quarto",
-    "section": "Quarto can",
-    "text": "Quarto can\n\nbe authored in your favorite code editor\napply journal styles to your outputs with Quarto extensions\norchestrate multiple inputs and outputs with embedded computing using a new Quarto project type: manuscript\nproduce manuscripts in multiple formats (including LaTeX or MS Word formats required by journals), and give readers easy access to all of the formats through a website\npublish computations from one or more notebooks alongside the manuscript, allowing readers to dive into your code and view it or interact with it in a virtual environment\npublish to GitHub Pages, Netlify, and more"
+    "section": "Quarto can …",
+    "text": "Quarto can …\n\nbe authored in your favorite code editor\napply journal styles to your outputs with Quarto extensions\norchestrate multiple inputs and outputs with embedded computing using a new Quarto project type: manuscript\nproduce manuscripts in multiple formats (including LaTeX or MS Word formats required by journals), and give readers easy access to all of the formats through a website\npublish computations from one or more notebooks alongside the manuscript, allowing readers to dive into your code and view it or interact with it in a virtual environment\npublish to GitHub Pages, Netlify, and more"
   },
   {
     "objectID": "slides.html#journals-vs-manuscripts",
     "href": "slides.html#journals-vs-manuscripts",
     "title": "From Code to Paper: Reproducible Research with Quarto",
     "section": "Journals vs Manuscripts",
-    "text": "Journals vs Manuscripts\nIn Quarto, a journal refers to a single document, potentially with embedded computations and visualizations, designed for publication in a journal format.\nA manuscript, on the other hand, represents a collection of Quarto documents, potentially including multiple chapters, that are intended to be assembled into a book-like structure."
+    "text": "Journals vs Manuscripts\nIn Quarto, a journal refers to a single document, potentially with embedded computations and visualizations, designed for publication in a journal format.\n\nA manuscript, on the other hand, represents a collection of Quarto documents, potentially including multiple chapters, that are intended to be assembled into a book-like structure."
   },
   {
     "objectID": "slides.html#journals",
     "href": "slides.html#journals",
     "title": "From Code to Paper: Reproducible Research with Quarto",
     "section": "Journals",
-    "text": "Journals\nIf you just want to create one Quarto document for your journal you can find some templates in the gihgub repo."
+    "text": "Journals\n\nIf you just want to create one Quarto document for your journal you can find some templates in the GitHub repo at https://github.com/quarto-journals"
   },
   {
     "objectID": "slides.html#intsalling-the-templates-from-your-terminal",
@@ -175,11 +175,11 @@
     "text": "Intsalling the templates from your terminal"
   },
   {
-    "objectID": "slides.html#how-doed-the-journal-template-file-looks-like",
-    "href": "slides.html#how-doed-the-journal-template-file-looks-like",
+    "objectID": "slides.html#how-does-the-journal-template-file-looks-like",
+    "href": "slides.html#how-does-the-journal-template-file-looks-like",
     "title": "From Code to Paper: Reproducible Research with Quarto",
-    "section": "How doed the journal template file looks like",
-    "text": "How doed the journal template file looks like"
+    "section": "How does the journal template file looks like",
+    "text": "How does the journal template file looks like\n\nOnce we have copy the template the file folder will look something like this."
   },
   {
     "objectID": "slides.html#rendering-a-journal-paper",
@@ -305,14 +305,28 @@
     "href": "slides.html#citations-1",
     "title": "From Code to Paper: Reproducible Research with Quarto",
     "section": "Citations",
-    "text": "Citations\n\nStudies of the magma systems feeding the volcano, such as @marrero2019, have proposed ...\n\nWhen rendered, it displays as:\n\n\nStudies of the magma systems feeding the volcano, such as Marrero et al. (2019), have proposed …\n\n\nand when hovering over the citation text it reveals the full reference details allowing reader to click on the citation and take it to the reference in the References section at the end of the article:"
+    "text": "Citations\n\nStudies of the magma systems feeding the volcano, such as @marrero2019, have proposed ...\n\nWhen rendered, it displays as:\n\n\nStudies of the magma systems feeding the volcano, such as Marrero et al. (2019), have proposed"
   },
   {
     "objectID": "slides.html#citations-2",
     "href": "slides.html#citations-2",
     "title": "From Code to Paper: Reproducible Research with Quarto",
     "section": "Citations",
-    "text": "Citations\nAnother common style is to place the citation within parentheses at the end of a sentence. You can achieve this by enclosing the citation syntax in square brackets [. For example,\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano [@marrero2019].\n\nWhen rendered, it displays as:\n\n\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al. 2019).\n\n\n\n\n\n\n\n\n\nTip\n\n\nQuarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html"
+    "text": "Citations\n… and when hovering over the citation text it reveals the full reference details allowing reader to click on the citation and take it to the reference in the References section at the end of the article:"
+  },
+  {
+    "objectID": "slides.html#citations-3",
+    "href": "slides.html#citations-3",
+    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "section": "Citations",
+    "text": "Citations\nAnother common style is to place the citation within parentheses at the end of a sentence. You can achieve this by enclosing the citation syntax in square brackets [. For example,\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano [@marrero2019].\n\nWhen rendered, it displays as:\n\n\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al. 2019)."
+  },
+  {
+    "objectID": "slides.html#citations-4",
+    "href": "slides.html#citations-4",
+    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "section": "Citations",
+    "text": "Citations\n\n\n\n\n\n\nTip\n\n\nQuarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html"
   },
   {
     "objectID": "slides.html#your-turn-add-a-citation-to-your-bib-file-and-use-it",
@@ -343,11 +357,11 @@
     "text": "Cross References element and prefix\n\nFigure fig- and will render as Figure 1\nTable tbl- and will render as Table 1\nEquation eq- and will render as Equation 1\nSection sec- and will render as Section 1\n\n\n\n\n\n\n\n\nWarning\n\n\nTo cross reference sections your document YAML header must also include number-sections: true You can add a label to a section heading in curly braces after the heading, e.g ## Data & Methods {#sec-data-methods} and the you can then reference this section in the text by adding the text and the @ reference like Data and methods are discussed in @sec-data-methods."
   },
   {
-    "objectID": "slides.html#cross-reference-tip-use-the-visual-mode-to-add-cross-reference",
-    "href": "slides.html#cross-reference-tip-use-the-visual-mode-to-add-cross-reference",
+    "objectID": "slides.html#cross-reference-in-visual-mode",
+    "href": "slides.html#cross-reference-in-visual-mode",
     "title": "From Code to Paper: Reproducible Research with Quarto",
-    "section": "Cross Reference Tip: Use the visual mode to add cross reference",
-    "text": "Cross Reference Tip: Use the visual mode to add cross reference"
+    "section": "Cross Reference in visual mode",
+    "text": "Cross Reference in visual mode"
   },
   {
     "objectID": "slides.html#static-figues-and-images",
@@ -410,7 +424,7 @@
     "href": "slides.html#thank-you",
     "title": "From Code to Paper: Reproducible Research with Quarto",
     "section": "Thank you!",
-    "text": "Thank you!\n www.linkedin.com/in/betsabe1984   betsabecohen@gmail.com"
+    "text": "Thank you!\n\n www.linkedin.com/in/betsabe1984\n\n betsabecohen@gmail.com"
   },
   {
     "objectID": "about.html",

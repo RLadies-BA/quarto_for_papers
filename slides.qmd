@@ -14,7 +14,7 @@ format:
     linkcolor: "#80a9d7"
     incremental: true   
     slide-number: true
-    footer: "https://from-code-to-paper-with-quarto.netlify.app/"
+    footer: "[from-code-to-paper.netlify.app](https://from-code-to-paper-with-quarto.netlify.app/)"
     chalkboard: 
       buttons: true
 editor: 
@@ -40,7 +40,7 @@ I'm currently organizer at:\
 **RLadies Buenos Aires**: A global organisation that promotes gender diversity in the R community
 
 **\
-Núcleo de Innovación Social**: An interdisciplinary research and development team in social sciences and technology.
+Núcleo de Innovación Social**: An inter-disciplinary research and development team in social sciences and technology.
 :::
 :::
 
@@ -50,15 +50,17 @@ Núcleo de Innovación Social**: An interdisciplinary research and development t
 
 -   What is Quarto?
 
--   Core Use Cases
+-   Core Use Cases: a short walk around
 
--   Academic Production with Quarto Manuscripts
+-   Academic Production with Quarto Journal and Manuscripts
+  
+    -   Journal Templates 
+  
+    -   Quarto Manuscript Projects
+  
+    -   Citations, Cross references, and authoring 
 
--   Tips on Practical Reproducibility: GitHub Integration
-
--   Hands-on Coding
-
--   Learning More & Getting Involved
+-   Learning More
 
 ## Over shoulders of giagants
 
@@ -188,15 +190,15 @@ The Turing Way (open collaboration, and community-driven project that has produc
 
 -   Create dynamic content with Python, R, Julia, and Observable.
 
--   Publish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.
+-   Publish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in HTML, PDF, MS Word, e Pub, and more.
 
 -   Share knowledge and insights organization-wide by publishing to Posit Connect, Confluence, or other publishing systems.
 
--   Write using Pandoc markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.
+-   Write using Pandoc markdown, including equations, citations, cross refs, figure panels, call-outs, advanced layout, and more.
 
 ## Quarto General Workflow
 
-!["Artwork from"Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/b5217f2a-f129-4bf9-90dc-c5b9783d0ea8.png?h=f8d3ed40353f4ae6eb77dae39072510c){fig-alt="\"Artwork from \"Hello, Quarto\" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.\""}
+!["Artwork from"Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."](img/horst-quarto-workflow.png)
 
 ::: notes
 If you have worked with RMarkdown before you can think of Quarto as the new and emproved generation of it.
@@ -205,7 +207,7 @@ If you have worked with RMarkdown before you can think of Quarto as the new and 
 ## Quarto for R and other languages
 
 ::: columns
-!["Artwork from"Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/c2ef45f1-4a68-4c7a-a43f-bdcf0f90e104.png?h=57404b88e9bf43eea2d2b57c71b13303){fig-alt="\"Artwork from \"Hello, Quarto\" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.\""}
+!["Artwork from"Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."](img/horst-quarto-languages.png)
 
 ::: notes
 A multi-language, next generation version of R Markdown from Posit, with many new features and capabilities.
@@ -341,32 +343,35 @@ You can find a list of all the code cell options available on the Knitr Code Ce
 
 # Quarto for manuscripts and journal articles
 
-## Quarto can
+## Quarto can ... {.smaller}
 
--   be authored in your favorite code editor
+-   be **authored** in your favorite **code editor**
 
--   apply journal styles to your outputs with Quarto extensions
+-   apply **journal styles** to your outputs with Quarto extensions
 
--   orchestrate multiple inputs and outputs with embedded computing using a new Quarto project type: manuscript
+-   orchestrate **multiple inputs and outputs** with embedded computing using a new `Quarto project type: manuscript`
 
--   produce manuscripts in multiple formats (including LaTeX or MS Word formats required by journals), and give readers easy access to all of the formats through a website
+-   produce manuscripts in **multiple formats** (including LaTeX or MS Word formats required by journals), and give readers easy access to all of the formats through a website
 
--   publish computations from one or more notebooks alongside the manuscript, allowing readers to dive into your code and view it or interact with it in a virtual environment
+-   publish **computations from one or more notebooks** alongside the manuscript, allowing readers to dive into your code and view it or interact with it in a virtual environment
 
--   publish to GitHub Pages, Netlify, and more
+-   publish to **GitHub** Pages, **Netlify**, and more
 
 
 ## Journals vs Manuscripts
 
 In Quarto, a **journal** refers to a **single document**, potentially with embedded computations and visualizations, designed for publication in a journal format. 
 
+<br>
+
 A **manuscript**, on the other hand, represents **a collection of Quarto documents**, potentially including multiple chapters, that are intended to be assembled into a book-like structure. 
 
 
 ## Journals
 
-
-If you just want to create one Quarto document for your journal you can find some templates in the gihgub repo.
+::: notes
+If you just want to create one Quarto document for your journal you can find some templates in the GitHub repo at https://github.com/quarto-journals 
+:::
 
 ![](img/quarto-journal-templates.png)
 
@@ -375,7 +380,11 @@ If you just want to create one Quarto document for your journal you can find som
 
 ![](img/create-journal-project-from-terminal.gif)
 
-## How doed the journal template file looks like
+## How does the journal template file looks like
+
+::: notes
+Once we have copy the template the file folder will look something like this. 
+:::
 
 ![](img/journal-project-created-from-template.png)
 
@@ -664,11 +673,11 @@ When rendered, it displays as:
 
 . . .
 
-> Studies of the magma systems feeding the volcano, such as Marrero et al. (2019), have proposed ...
+> Studies of the magma systems feeding the volcano, such as Marrero et al. (2019), have proposed 
 
-<br>
+## Citations {.smaller}
 
-and when hovering over the citation text it reveals the full reference details allowing reader to click on the citation and take it to the reference in the References section at the end of the article:
+... and when hovering over the citation text it reveals the full reference details allowing reader to click on the citation and take it to the reference in the References section at the end of the article:
 
 . . .
 
@@ -689,7 +698,7 @@ When rendered, it displays as:
 
 > A prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al. 2019).
 
-. . .
+## Citations
 
 ::: callout-tip
 Quarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html 
@@ -753,7 +762,7 @@ You can add a label to a section heading in curly braces after the heading, e.g 
 <br>
 :::
 
-## Cross Reference Tip: Use the visual mode to add cross reference
+## Cross Reference in visual mode {.smaller}
 
 
 ![](img/manuscript-cross-reference-visual-mode.gif)
@@ -844,8 +853,12 @@ You can learn more about publishing at https://quarto.org/docs/publishing/
 
 ## Thank you! {.bigtext}
 
-{{< fa brands linkedin >}} [www.linkedin.com/in/betsabe1984](https://www.linkedin.com/in/betsabe1984)
 <br>
+
+{{< fa brands linkedin >}} [www.linkedin.com/in/betsabe1984](https://www.linkedin.com/in/betsabe1984)
+
+<br>
+
 {{< fa envelope title="An envelope" >}} [betsabecohen@gmail.com](mailito:betsabecohen@gmail.com)
 
 
