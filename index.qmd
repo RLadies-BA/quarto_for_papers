@@ -1,24 +1,32 @@
 ---
-title: "From Code to Paper: Reproducible Research with Quarto"
+title: "From data analysis to publication: Reproducible research with R and Quarto"
 ---
 
-Welcome to **"From Code to Paper: Reproducible Research with Quarto"** talk, part of the SATRA Foundation's *Introduction to Data Science with R* series, hosted by the SARA Institute of Data Science.
+Research is most valuable when others can understand it, reproduce it, and build upon it.
 
-🎯 **Goal of this session**\
-Help early-career researchers and first-time coders understand how to use R and Quarto to create long-form, reproducible documents like thesis manuscripts, academic reports, and even personal websites.
+Yet many research workflows still rely on disconnected files, manual copy-and-paste steps, and documents that are difficult to update or share.
 
-------------------------------------------------------------------------
+In this workshop, we will explore how **R** and **Quarto** can help create reproducible research workflows that take you from data analysis to publication using open-source tools.
 
-## 🧠 What You'll Learn
+Participants will learn how to integrate code, results, figures, tables, and narrative into a single document, making it possible to generate academic manuscripts, technical reports, presentations, and even theses from the same source.
 
--   Why reproducibility matters in research\
--   What is **Quarto** and how it fits into the R ecosystem\
--   Core use cases (articles, presentations, websites)\
--   How to write academic documents using Quarto\
--   How to use GitHub for version control and collaboration\
--   Hands-on coding exercises to build your first Quarto project
+By combining analysis and writing in a reproducible workflow, researchers can improve transparency, reduce errors, and make their work easier to maintain and share.
 
-------------------------------------------------------------------------
+## 🎯During the session, we will cover:
+
+-   Creating reproducible research documents with Quarto
+
+-   Combining R code, results, figures, and narrative
+
+-   Generating reports, manuscripts, presentations, and other outputs
+
+-   Organizing research projects for transparency and reproducibility
+
+-   Sharing and publishing research using open-source tools
+
+This workshop is designed for undergraduate and graduate students, early-career researchers, and anyone interested in adopting reproducible research practices.
+
+Whether you are preparing a thesis, writing a manuscript, or creating analytical reports, this session will provide practical tools to streamline your workflow and improve the reproducibility of your work.
 
 ## 🛠 Requirements
 
