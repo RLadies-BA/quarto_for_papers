@@ -1,6 +1,6 @@
 ---
-title: "From Code to Paper: Reproducible Research with Quarto"
-institute: "Núcleo de Innovación Social - Buenos Aires Argentina"
+title: "From data analysis to publication: Reproducible research with R and Quarto"
+institute: "RLadies - BA"
 author: "Betsy Cohen, Jesica Formoso"
 title-slide-attributes:
   data-background-image: "img/portada.jpg"
@@ -14,7 +14,7 @@ format:
     linkcolor: "#80a9d7"
     incremental: true   
     slide-number: true
-    footer: "[from-code-to-paper.netlify.app](https://from-code-to-paper-with-quarto.netlify.app/)"
+    footer: "[rladies-ba.github.io/quarto_for_papers](https://rladies-ba.github.io/quarto_for_papers/)"
     chalkboard: 
       buttons: true
 editor: 
@@ -34,7 +34,7 @@ editor:
 :::
 :::::
 
-:::notes
+::: notes
 Presentación de Jes\
 I'm Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and Social Medical Sciences from the University of Buenos Aires (UBA), and a tenured Research Associate at the National Scientific and Technical Research Council ([CONICET](https://www.conicet.gov.ar/new_scp/detalle.php?id=52112&datos_academicos=yes)).
 
@@ -42,8 +42,6 @@ Presentación de Betsy
 
 I'm Betsy Cohen I'm currently organizer at: **RLadies Buenos Aires**: A global organisation that promotes gender diversity in the R community and at **Núcleo de Innovación Social**: An inter-disciplinary research and development team in social sciences and technology.
 :::
-
-
 
 ## Agenda
 
@@ -88,7 +86,6 @@ There are several definitions of reproducibility in use but in the context of th
 In research, this ensures transparency, trust, and the ability to build upon previous work.
 It's like leaving breadcrumbs through the forest of your analysis so no one gets lost.
 :::
-
 
 # What is Quarto?
 
