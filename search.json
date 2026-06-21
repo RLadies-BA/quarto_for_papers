@@ -2,21 +2,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "",
-    "text": "Welcome to “From Code to Paper: Reproducible Research with Quarto” talk, part of the SATRA Foundation’s Introduction to Data Science with R series, hosted by the SARA Institute of Data Science.\n🎯 Goal of this session\nHelp early-career researchers and first-time coders understand how to use R and Quarto to create long-form, reproducible documents like thesis manuscripts, academic reports, and even personal websites."
+    "text": "Research is most valuable when others can understand it, reproduce it, and build upon it.\nYet many research workflows still rely on disconnected files, manual copy-and-paste steps, and documents that are difficult to update or share.\nIn this workshop, we will explore how R and Quarto can help create reproducible research workflows that take you from data analysis to publication using open-source tools.\nParticipants will learn how to integrate code, results, figures, tables, and narrative into a single document, making it possible to generate academic manuscripts, technical reports, presentations, and even theses from the same source.\nBy combining analysis and writing in a reproducible workflow, researchers can improve transparency, reduce errors, and make their work easier to maintain and share."
   },
   {
-    "objectID": "index.html#what-youll-learn",
-    "href": "index.html#what-youll-learn",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
-    "section": "🧠 What You’ll Learn",
-    "text": "🧠 What You’ll Learn\n\nWhy reproducibility matters in research\n\nWhat is Quarto and how it fits into the R ecosystem\n\nCore use cases (articles, presentations, websites)\n\nHow to write academic documents using Quarto\n\nHow to use GitHub for version control and collaboration\n\nHands-on coding exercises to build your first Quarto project"
+    "objectID": "index.html#during-the-session-we-will-cover",
+    "href": "index.html#during-the-session-we-will-cover",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
+    "section": "🎯During the session, we will cover:",
+    "text": "🎯During the session, we will cover:\n\nCreating reproducible research documents with Quarto\nCombining R code, results, figures, and narrative\nGenerating reports, manuscripts, presentations, and other outputs\nOrganizing research projects for transparency and reproducibility\nSharing and publishing research using open-source tools\n\nThis workshop is designed for undergraduate and graduate students, early-career researchers, and anyone interested in adopting reproducible research practices.\nWhether you are preparing a thesis, writing a manuscript, or creating analytical reports, this session will provide practical tools to streamline your workflow and improve the reproducibility of your work."
   },
   {
     "objectID": "index.html#requirements",
     "href": "index.html#requirements",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "🛠 Requirements",
     "text": "🛠 Requirements\nTo follow along, please install:\n\nR\nRStudio\nQuarto CLI\nA GitHub account (optional, but recommended)"
   },
@@ -30,329 +30,329 @@
   {
     "objectID": "slides.html#hello-hola-ciao",
     "href": "slides.html#hello-hola-ciao",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Hello/ Hola!/ Ciao!",
     "text": "Hello/ Hola!/ Ciao!\n\n\n\n\n\n\n\nPresentación de Jes\nI’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and Social Medical Sciences from the University of Buenos Aires (UBA), and a tenured Research Associate at the National Scientific and Technical Research Council (CONICET).\nPresentación de Betsy\nI’m Betsy Cohen I’m currently organizer at: RLadies Buenos Aires: A global organisation that promotes gender diversity in the R community and at Núcleo de Innovación Social: An inter-disciplinary research and development team in social sciences and technology."
   },
   {
     "objectID": "slides.html#agenda",
     "href": "slides.html#agenda",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Agenda",
     "text": "Agenda\n\nWhy Reproducibility?\nWhat is Quarto?\nCore Use Cases: a short walk around\nAcademic Production with Quarto Journal and Manuscripts\n\nJournal Templates\nQuarto Manuscript Projects\nCitations, Cross references, and authoring\n\nLearning More"
   },
   {
     "objectID": "slides.html#over-shoulders-of-giagants",
     "href": "slides.html#over-shoulders-of-giagants",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Over shoulders of giagants",
     "text": "Over shoulders of giagants\nThis presentation is based on:\n\nQuarto Manuscripts official documentation\n“Slides and materials for the”Reproducible Manuscripts with Quarto” talk at posit::conf(2023). by Mine Çetinkaya-Rundel\nQuarto for Academics video on YouTube by Mine Çetinkaya-Rundel and Posit\nR/Medicine: Quarto for Reproducible Medical Manuscripts by Mine Cetinkaya-Rundel webinar in youtube video\nThe Turing Way Community, & Scriberia.(2024) on https://book.the-turing-way.org/"
   },
   {
     "objectID": "slides.html#what-do-we-mean-by-reproductibility",
     "href": "slides.html#what-do-we-mean-by-reproductibility",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "What do we mean by reproductibility",
     "text": "What do we mean by reproductibility\n\n\n\nThe Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: The Turing Way Community & Scriberia (2024).\n\n\n\nThere are several definitions of reproducibility in use but in the context of this meeting we will refer to reproductibilty in as Computational reproducibility: When detailed information is provided about code, software, hardware and implementation details. In other words Reproducibility means that someone else —or even you in six months— can take your data and your code, run it again, and get the same results. In research, this ensures transparency, trust, and the ability to build upon previous work. It’s like leaving breadcrumbs through the forest of your analysis so no one gets lost."
   },
   {
     "objectID": "slides.html#quarto-general-workflow",
     "href": "slides.html#quarto-general-workflow",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Quarto General Workflow",
     "text": "Quarto General Workflow\n\n“Artwork from”Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.”\nIf you have worked with RMarkdown before you can think of Quarto as the new and emproved generation of it."
   },
   {
     "objectID": "slides.html#quarto-for-r-and-other-languages",
     "href": "slides.html#quarto-for-r-and-other-languages",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Quarto for R and other languages",
     "text": "Quarto for R and other languages\n\n\n\n\n“Artwork from”Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.”\n\n\nA multi-language, next generation version of R Markdown from Posit, with many new features and capabilities.\nLike R Markdown, Quarto uses knitr to execute R code, and is therefore able to render most existing Rmd files without modification."
   },
   {
     "objectID": "slides.html#use-cases",
     "href": "slides.html#use-cases",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Use Cases",
     "text": "Use Cases\n\n🗃️Dynamic Documents\n🌄Beautiful Publications\n🧪Scientific Markdown\n🕸️Websites and Books\n📽️Interactivity\n\n\nTake a visit to Quarto Gallery here\n\n\n🗃️Dynamic Documents: Generate dynamic output using Python, R, Julia, and Observable. Create reproducible documents that can be regenerated when underlying assumptions or data change.\n🌄Beautiful Publications: Publish high-quality articles, reports, presentations, websites, and books in HTML, PDF, MS Word, ePub, and more. Use a single source document to target multiple formats.\n🧪Scientific Markdown: Pandoc markdown has excellent support for LaTeX equations and citations. Quarto adds extensions for cross-references, figure panels, callouts, advanced page layout, and more.\n🕸️Websites and Books: Publish collections of documents as a blog or full website. Create books and manuscripts in both print formats (PDF and MS Word) and online formats (HTML and ePub).\n📽️Interactivity: Engage readers by adding interactive data exploration to your documents using Jupyter Widgets, htmlwidgets for R, Observable JS, and Shiny."
   },
   {
     "objectID": "slides.html#quarto-can",
     "href": "slides.html#quarto-can",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Quarto can …",
     "text": "Quarto can …\n\nbe authored in your favorite code editor\napply journal styles to your outputs with Quarto extensions\norchestrate multiple inputs and outputs with embedded computing using a new Quarto project type: manuscript\nproduce manuscripts in multiple formats (including LaTeX or MS Word formats required by journals), and give readers easy access to all of the formats through a website\npublish computations from one or more notebooks alongside the manuscript, allowing readers to dive into your code and view it or interact with it in a virtual environment\npublish to GitHub Pages, Netlify, and more"
   },
   {
     "objectID": "slides.html#journals-vs-manuscripts",
     "href": "slides.html#journals-vs-manuscripts",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Journals vs Manuscripts",
     "text": "Journals vs Manuscripts\nIn Quarto, a journal refers to a single document, potentially with embedded computations and visualizations, designed for publication in a journal format.\n\nA manuscript, on the other hand, represents a collection of Quarto documents, potentially including multiple chapters, that are intended to be assembled into a book-like structure."
   },
   {
     "objectID": "slides.html#journals",
     "href": "slides.html#journals",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Journals",
     "text": "Journals\n\nIf you just want to create one Quarto document for your journal you can find some templates in the GitHub repo at https://github.com/quarto-journals"
   },
   {
     "objectID": "slides.html#intsalling-the-templates-from-your-terminal",
     "href": "slides.html#intsalling-the-templates-from-your-terminal",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Intsalling the templates from your terminal",
     "text": "Intsalling the templates from your terminal"
   },
   {
     "objectID": "slides.html#how-does-the-journal-template-file-looks-like",
     "href": "slides.html#how-does-the-journal-template-file-looks-like",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "How does the journal template file looks like",
     "text": "How does the journal template file looks like\n\nOnce we have copy the template the file folder will look something like this."
   },
   {
     "objectID": "slides.html#rendering-a-journal-paper",
     "href": "slides.html#rendering-a-journal-paper",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Rendering a Journal paper",
     "text": "Rendering a Journal paper"
   },
   {
     "objectID": "slides.html#getting-started-with-a-manuscript-create-a-manuscript-project",
     "href": "slides.html#getting-started-with-a-manuscript-create-a-manuscript-project",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Getting started with a manuscript: create a manuscript project",
     "text": "Getting started with a manuscript: create a manuscript project\n\nAll the things that we are going to see can also apply to Journal paper the only difference remain on the complexity and structrure of the folders.\n\n\nStart from scratch\n\nin your terminal write quarto create project manuscript &lt;name&gt;\nthen start adding manuscipt content or…\n\nStart with a sample from https://quarto.org/docs/manuscripts\n\n\n\n\n\n\n\n\n\nTip\n\n\nLearn how to Track your project with Git and host on GitHub for happy publishing."
   },
   {
     "objectID": "slides.html#your-turn-option-1",
     "href": "slides.html#your-turn-option-1",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your Turn! Option 1",
     "text": "Your Turn! Option 1\n\nAs I asume that maybe not all of you have experience working with git hub we’re gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts. If you are familiarizedf eith github you’ll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section. Go to your RStudio Terminal and create a new project from scratch by tiping the following text.\n\nIf you already have a peper of your own (with differnt r files with code) go to your RStudio Terminal and create a new project from scratch\n\n\nTerminal\n\nquarto create project manuscript indo-rct\n\nCreating project at /Users/mine/indo-rct:\n  - Created _quarto.yml\n  - Created index.qmd\n  - Created references.bib\n ? Open With\n   vscode\n ❯ rstudio\n   (don't open)"
   },
   {
     "objectID": "slides.html#your-turn-option-2",
     "href": "slides.html#your-turn-option-2",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your Turn! Option 2",
     "text": "Your Turn! Option 2\nIf you wanna follow along the same structure we are going to you can copy the repo from github repo\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
   },
   {
     "objectID": "slides.html#your-turn-redy-steady-go",
     "href": "slides.html#your-turn-redy-steady-go",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your turn!: Redy steady go!",
     "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
   },
   {
     "objectID": "slides.html#quarto-manuscript-minimal-folder-structure",
     "href": "slides.html#quarto-manuscript-minimal-folder-structure",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Quarto manuscript: minimal folder structure",
     "text": "Quarto manuscript: minimal folder structure\n\nWhen we create a project from scratch Wuarto creates a minimal project structure, that includes a _quarto.yml the index.qmd notebook (where we’ll write the manuscript) and a reference.bib for the citiations and reference we’ll use along our paper."
   },
   {
     "objectID": "slides.html#quarto-manuscript-minimal-manuscript-_quarto.yml",
     "href": "slides.html#quarto-manuscript-minimal-manuscript-_quarto.yml",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Quarto manuscript: minimal manuscript _quarto.yml",
     "text": "Quarto manuscript: minimal manuscript _quarto.yml\n\n\n_quarto.yml\n\nproject:\n  type: manuscript\n\nmanuscript:\n  article: index.qmd\n\nformat:\n  html:\n    comments:\n      hypothesis: true\n  docx: default\n  jats: default\n\n  # (other formats)\n  # pdf: default\nexecute:\n  freeze: true\n\n\nIf we take a look at _YAML file we hace project type and an article is the index.qmd\nwe can also see that we have a format part with bunch of formats: an html , a docx and a jats tof all of your documents that some of the uh journals um accept grabbing this archive um that goes along uh with the with your uh manuscript to sort of have a full um Archive of all of the work that has gone into that project. and we can do other formats as PDF."
   },
   {
     "objectID": "slides.html#basic-workflow",
     "href": "slides.html#basic-workflow",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Basic workflow",
     "text": "Basic workflow\nThe basic workflow for writing a manuscript in Quarto is to make changes to your article content (the index.qmd if you are following the example), preview the changes with Quarto, and repeat."
   },
   {
     "objectID": "slides.html#how-does-it-look-like-once-render",
     "href": "slides.html#how-does-it-look-like-once-render",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "How does it look like once render?",
     "text": "How does it look like once render?\n\n\nso this is how the final product will look like so we have a bunch of matadata regarding autihring, title, pushinjg date, the orher formas, some links that will leadme to the github repositorory as a Binder link, a TOC that I get by default, and embeded notebook that. Also we can see some Quarto fetaures like Figures refrences, equiations.\nAnother cool feature is the hypotesis option thatyou can asee as we higlight some text and Quarto will let you higlight some text and add some annotations,"
   },
   {
     "objectID": "slides.html#your-turn-render-your-first-qmd-manuscript",
     "href": "slides.html#your-turn-render-your-first-qmd-manuscript",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your Turn: Render your first qmd manuscript",
     "text": "Your Turn: Render your first qmd manuscript\n\nOpen index.qmd.\nRender and preview the manuscript by hitting the Render button located in the menu bar of the editor\nYou’ll see some output from Quarto in the Background Jobs pane and then a live preview will appear in the Viewer pane.\nChange the title of your index.qmd\nSave the file, re-render, and you’ll see the preview update."
   },
   {
     "objectID": "slides.html#your-turn-redy-steady-go-1",
     "href": "slides.html#your-turn-redy-steady-go-1",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your turn!: Redy steady go!",
     "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
   },
   {
     "objectID": "slides.html#one-qmd-to-rule-all-formats",
     "href": "slides.html#one-qmd-to-rule-all-formats",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "One qmd to rule all formats",
     "text": "One qmd to rule all formats\n{fig-align = “center”}\n\nAs we says before we can get multiple formats fropm one qmd file. In order to get this we are get this we just have to add some .lines un our _quarto.yml file"
   },
   {
     "objectID": "slides.html#one-qmd-to-rule-all-formats-1",
     "href": "slides.html#one-qmd-to-rule-all-formats-1",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "One qmd to rule all formats",
     "text": "One qmd to rule all formats\n\n\n_quarto.yml\n\nformat:\n  html:\n    comments:\n      hypothesis: true\n  docx: default\n  jats: default\n  plos-pdf:\n    keep-tex: true\n\n\nI Have 4 outputs that are listed the html that is the one that we are looking but qwe also have de docx, the jats and the pdf. The comments hypotesis true alllows to activate for my html file, so it allows to add the comments as we have seen before and for the pdf we also have differnt options in order to kepp the reproductibility: we can keep the the markdown files genreates (keep-md), the notbook files genreated (keep-ipynd), or as I’m choosimg here the intermediate text files that are genrested. Which I find especially helpful as I work on a manuscript every once in a while there are some tech error that I’m only able to resolve by simply opening the tech document itself and rendering that and trying to look at the log of it so it’s helpful to have that intermediary file available it also is one other way you can share with your collaborators again who may not be the people writing code but who might be familiar with latch additionally in the index. qmd file"
   },
   {
     "objectID": "slides.html#setting-the-front-matter-of-your-index.qmd",
     "href": "slides.html#setting-the-front-matter-of-your-index.qmd",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Setting the Front matter of your index.qmd",
     "text": "Setting the Front matter of your index.qmd\n\n\n_index.qmd\n\n\ntitle: La Palma Earthquakes\nauthor:\n  - name: Steve Purves\n    orcid: 0000-0002-0760-5497\n    corresponding: true\n    email: steve@curvenote.com\n    roles:\n      - Investigation\n      - Project administration\n      - Software\n      - Visualization\n    affiliations:\n      - Curvenote\n  - name: Rowan Cockett\n    orcid: 0000-0002-7859-8394\n    corresponding: false\n    roles: []\n    affiliations:\n      - Curvenote\nkeywords:\n  - La Palma\n  - Earthquakes\nabstract: |\n  In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...\nplain-language-summary: |\n  Earthquake data for the island of La Palma from the September 2021 eruption is found ...\nkey-points:\n  - A web scraping script was developed to pull data from the Instituto Geogràphico Nacional into a machine-readable form for analysis\n  - Earthquake events on La Palma are consistent with the presence of both mantle and crustal reservoirs.\ndate: last-modified\nbibliography: references.bib\ncitation:\n  container-title: Earth and Space Science\nnumber-sections: true\n---\n\n\nSo apart from the obvous as the title we can set here the outaurs with all tge information about them as the affiliation their orcid email, the roles they have in the project, thir email, also we can add the keyword for our paper, as well as the abstract, date, as well as the refereces document for bibliography and, and citations."
   },
   {
     "objectID": "slides.html#using-computations-in-the-body-of-youtr-text",
     "href": "slides.html#using-computations-in-the-body-of-youtr-text",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Using computations in the body of youtr text",
     "text": "Using computations in the body of youtr text\nYou can use computed values directly in your article text using the syntax `{r} expr`. For example, consider this line in index.qmd:\nBased on data up to and including 1971, eruptions on La Palma happen every `{r} round(avg_years_between_eruptions, 1)` years on average.\nWhen rendered, it displays as:\n\n\nBased on data up to and including 1971, eruptions on La Palma happen every 79.8 years on average."
   },
   {
     "objectID": "slides.html#code-chuncks-for-computations-using-the-lable-and-fig--options",
     "href": "slides.html#code-chuncks-for-computations-using-the-lable-and-fig--options",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Code chuncks for computations using the lable and fig- options",
     "text": "Code chuncks for computations using the lable and fig- options\n\nSo we have already seen the echo option and that we can embeded calculations and references. In this chunck the label option is used to add an identifier to code cell and its output, for example to allow cross referencing. The prefix fig- is required for figure cross references, but the suffix, in this case timeline, is up to you. We’ll get back to Cross References in a moment, but for now the import thing is to understand that the option fig-cap provides the caption text displayed below the figure in the manuscript, and fig-alt provides alt text for the figure, helping your manuscript webpage to meet accessibility guidelines.\nComputations are also a good way to include tables based on data. You can read more about doing this in the Quarto documentation on Tables from Computations.\n\n```{r}\n#| label: fig-timeline\n#| fig-cap: Timeline of recent earthquakes on La Palma\n#| fig-alt: An event plot of the years of the last 8 eruptions on La Palma.\n#| fig-height: 1.5\n#| fig-width: 6\npar(mar = c(3, 1, 1, 1) + 0.1)\nplot(\n  eruptions, rep(0, n_eruptions), \n  pch = \"|\", axes = FALSE\n)\naxis(1)\nbox()\n```"
   },
   {
     "objectID": "slides.html#citations",
     "href": "slides.html#citations",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Citations",
     "text": "Citations\n\nTo add citations you need a bibliography file, .bib, containing the citation data. You can specify this file in the document YAML with the bibliography option. For example, the citation data for index.qmd is stored in references.bib\nThe file references.bib contains only one citation and it looks something like this\nTo cite an article from the bibliography in your text, you use @ followed by the citation identifier, e.g. marrero2019. For example, the article includes this line citing this reference will read something like\n\n\n\nreferences.bib\n\n@article{marrero2019,\n  author = {Marrero, Jos{\\' e} and Garc{\\' i}a, Alicia and Berrocoso, Manuel and Llinares, {\\' A}ngeles and Rodr{\\' i}guez-Losada, Antonio and Ortiz, R.},\n  journal = {Journal of Applied Volcanology},\n  year = {2019},\n  month = {7},\n  pages = {},\n  title = {Strategies for the development of volcanic hazard maps in monogenetic volcanic fields: the example of {La} {Palma} ({Canary} {Islands})},\n  volume = {8},\n  doi = {10.1186/s13617-019-0085-5},\n}"
   },
   {
     "objectID": "slides.html#citations-1",
     "href": "slides.html#citations-1",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Citations",
     "text": "Citations\n\nStudies of the magma systems feeding the volcano, such as @marrero2019, have proposed ...\n\nWhen rendered, it displays as:\n\n\nStudies of the magma systems feeding the volcano, such as Marrero et al. (2019), have proposed"
   },
   {
     "objectID": "slides.html#citations-2",
     "href": "slides.html#citations-2",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Citations",
     "text": "Citations\n… and when hovering over the citation text it reveals the full reference details allowing reader to click on the citation and take it to the reference in the References section at the end of the article:"
   },
   {
     "objectID": "slides.html#citations-3",
     "href": "slides.html#citations-3",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Citations",
     "text": "Citations\nAnother common style is to place the citation within parentheses at the end of a sentence. You can achieve this by enclosing the citation syntax in square brackets [. For example,\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano [@marrero2019].\n\nWhen rendered, it displays as:\n\n\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al. 2019)."
   },
   {
     "objectID": "slides.html#citations-4",
     "href": "slides.html#citations-4",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Citations",
     "text": "Citations\n\n\n\n\n\n\nTip\n\n\nQuarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html"
   },
   {
     "objectID": "slides.html#your-turn-add-a-citation-to-your-bib-file-and-use-it",
     "href": "slides.html#your-turn-add-a-citation-to-your-bib-file-and-use-it",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your Turn! Add a citation to your bib file and use it",
     "text": "Your Turn! Add a citation to your bib file and use it\n\nGo to your bib file and add a citation\nGo back to your index.qmd file and use the citation\nRender your file and chevck the changes"
   },
   {
     "objectID": "slides.html#your-turn-redy-steady-go-2",
     "href": "slides.html#your-turn-redy-steady-go-2",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your turn!: Redy steady go!",
     "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
   },
   {
     "objectID": "slides.html#cross-references",
     "href": "slides.html#cross-references",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Cross References",
     "text": "Cross References\n\nQuarto can generate cross references that keep track of numbering and linking for you. The general syntax for a cross reference is an @ followed by a label. For example, to reference the timeline figure, you could write: To render the cross references you have to include a word to indicate the type of object being referenced, like “Figure” or “Table”, so this:\n\nLabeled as…\n@fig-timeline\nShould be use used as\n\nEight eruptions have been recorded since the late 1400s (@fig-timeline).\nAnd will look something like\n\n\n\nEight eruptions have been recorded since the late 1400s (Figure 1)."
   },
   {
     "objectID": "slides.html#cross-references-element-and-prefix",
     "href": "slides.html#cross-references-element-and-prefix",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Cross References element and prefix",
     "text": "Cross References element and prefix\n\nFigure fig- and will render as Figure 1\nTable tbl- and will render as Table 1\nEquation eq- and will render as Equation 1\nSection sec- and will render as Section 1\n\n\n\n\n\n\n\n\nWarning\n\n\nTo cross reference sections your document YAML header must also include number-sections: true You can add a label to a section heading in curly braces after the heading, e.g ## Data & Methods {#sec-data-methods} and the you can then reference this section in the text by adding the text and the @ reference like Data and methods are discussed in @sec-data-methods."
   },
   {
     "objectID": "slides.html#cross-reference-in-visual-mode",
     "href": "slides.html#cross-reference-in-visual-mode",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Cross Reference in visual mode",
     "text": "Cross Reference in visual mode"
   },
   {
     "objectID": "slides.html#static-figues-and-images",
     "href": "slides.html#static-figues-and-images",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Static Figues and images",
     "text": "Static Figues and images\nTo include a figure from a file, the markdown syntax looks like:\n![Map of La Palma](images/la-palma-map.png)\nBy using #fig-name-of-image inside curly braces following the image path you can provide the reader a label for cross references. For eg.\n![Map of La Palma](images/la-palma-map.png){#fig-map fig-alt=\"A map of the Canary Islands. The second most west island, La Palma, is highlighted.\"}\n\n\n\n\n\n\nTip\n\n\nIt is recomended to store your in an folder named images/. Your images can be anywhere inside your manuscript project directory, just make sure you include the full path to the image, relative to the location of index.qmd."
   },
   {
     "objectID": "slides.html#authring-embeded-code-from-other-notebooks",
     "href": "slides.html#authring-embeded-code-from-other-notebooks",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Authring embeded code from other notebooks",
     "text": "Authring embeded code from other notebooks\n\nWe can do all the calculations in another notebook (it can be r document but it coould be also be a python notebook if you already are wrking with python) and we can embeded that into outr paper, by refereing to it the codechunck options and embeded notebook options\n\n```{r}\n{{&lt; embed notebooks/explore-earthquakes.qmd#fig-spatial-plot &gt;}}\n```\n\nCreate a folder for your notbooks\nAdd notebooks for calculations/ charts results, etc.\nAdd refreces in your manuscript index.qmd\nUse figures with fig- labels"
   },
   {
     "objectID": "slides.html#authring-embeded-code-from-other-notebooks-1",
     "href": "slides.html#authring-embeded-code-from-other-notebooks-1",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Authring embeded code from other notebooks",
     "text": "Authring embeded code from other notebooks"
   },
   {
     "objectID": "slides.html#publising",
     "href": "slides.html#publising",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Publising",
     "text": "Publising\nTo publish your site on GitHub Pages simply tipe\n\n\nTerminal\n\nquarto publish\n\nChoose GitHub Pages or the platform you prefer.\nYou can learn more about publishing at https://quarto.org/docs/publishing/"
   },
   {
     "objectID": "slides.html#what-else-can-i-do-with-quarto-presentations",
     "href": "slides.html#what-else-can-i-do-with-quarto-presentations",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "What else can I do with Quarto? Presentations 📺",
     "text": "What else can I do with Quarto? Presentations 📺"
   },
   {
     "objectID": "slides.html#what-else-can-i-do-with-quarto-dasboards",
     "href": "slides.html#what-else-can-i-do-with-quarto-dasboards",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "What else can I do with Quarto? Dasboards! 📈",
     "text": "What else can I do with Quarto? Dasboards! 📈"
   },
   {
     "objectID": "slides.html#what-else-can-i-do-with-quarto-your-personal-website",
     "href": "slides.html#what-else-can-i-do-with-quarto-your-personal-website",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "What else can I do with Quarto? Your Personal website 🌐",
     "text": "What else can I do with Quarto? Your Personal website 🌐"
   },
   {
     "objectID": "slides.html#what-else-can-i-do-with-quarto-your-first-book",
     "href": "slides.html#what-else-can-i-do-with-quarto-your-first-book",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "What else can I do with Quarto? Your First Book 📖",
     "text": "What else can I do with Quarto? Your First Book 📖"
   },
   {
     "objectID": "slides.html#thank-you",
     "href": "slides.html#thank-you",
-    "title": "From Code to Paper: Reproducible Research with Quarto",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Thank you!",
     "text": "Thank you!\n\n www.linkedin.com/in/betsabe1984\n\n betsabecohen@gmail.com"
   }
