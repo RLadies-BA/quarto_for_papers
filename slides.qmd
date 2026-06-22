@@ -27,10 +27,16 @@ editor:
 ::::: columns
 ::: column
 ![](https://rladiesba.netlify.app/author/betsabe-cohen/avatar_hue039aedc9d3c7fc9c6ebaa365f220822_828839_270x270_fill_lanczos_center_2.png){width="250"}
+
+**Betsy Cohen**
+
 :::
 
 ::: column
 ![](https://rladiesba.netlify.app/author/jesica-formoso/avatar_hu973a26bbc97caf7dae875a6a7cd4a574_109379_270x270_fill_q75_lanczos_center.jpg){width="250"}
+
+**Jesica Formoso**
+
 :::
 :::::
 
