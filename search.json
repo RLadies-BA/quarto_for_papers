@@ -98,25 +98,11 @@
     "text": "Journals\n\nIf you just want to create one Quarto document for your journal you can find some templates in the GitHub repo at https://github.com/quarto-journals"
   },
   {
-    "objectID": "slides.html#installing-the-templates-from-your-terminal",
-    "href": "slides.html#installing-the-templates-from-your-terminal",
+    "objectID": "slides.html#lets-dive-in",
+    "href": "slides.html#lets-dive-in",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Installing the templates from your terminal",
-    "text": "Installing the templates from your terminal"
-  },
-  {
-    "objectID": "slides.html#how-does-the-journal-template-file-looks-like",
-    "href": "slides.html#how-does-the-journal-template-file-looks-like",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "How does the journal template file looks like",
-    "text": "How does the journal template file looks like\n\nOnce we have copy the template the file folder will look something like this."
-  },
-  {
-    "objectID": "slides.html#rendering-a-journal-paper",
-    "href": "slides.html#rendering-a-journal-paper",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Rendering a Journal paper",
-    "text": "Rendering a Journal paper"
+    "section": "Let’s dive in!",
+    "text": "Let’s dive in!"
   },
   {
     "objectID": "slides.html#getting-started-with-a-manuscript-create-a-manuscript-project",
@@ -126,25 +112,11 @@
     "text": "Getting started with a manuscript: create a manuscript project\n\nAll the things that we are going to see can also apply to Journal paper the only difference remain on the complexity and structrure of the folders.\n\n\nStart from scratch\n\nin your terminal write quarto create project manuscript &lt;name&gt;\nthen start adding manuscipt content or…\n\nStart with a sample from https://quarto.org/docs/manuscripts\n\n\n\n\n\n\n\n\n\nTip\n\n\nLearn how to Track your project with Git and host on GitHub for happy publishing."
   },
   {
-    "objectID": "slides.html#your-turn-option-1",
-    "href": "slides.html#your-turn-option-1",
+    "objectID": "slides.html#lets-get-started",
+    "href": "slides.html#lets-get-started",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your Turn! Option 1",
-    "text": "Your Turn! Option 1\n\nAs I asume that maybe not all of you have experience working with git hub we’re gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts. If you are familiarizedf eith github you’ll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section. Go to your RStudio Terminal and create a new project from scratch by tiping the following text.\n\nIf you already have a peper of your own (with different r files with code) go to your RStudio Terminal and create a new project from scratch\n\n\nTerminal\n\nquarto create project manuscript indo-rct\n\nCreating project at /Users/mine/indo-rct:\n  - Created _quarto.yml\n  - Created index.qmd\n  - Created references.bib\n ? Open With\n   vscode\n ❯ rstudio\n   (don't open)"
-  },
-  {
-    "objectID": "slides.html#your-turn-option-2",
-    "href": "slides.html#your-turn-option-2",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your Turn! Option 2",
-    "text": "Your Turn! Option 2\nIf you wanna follow along the same structure we are going to use, you can copy this GitHub repo.\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
-  },
-  {
-    "objectID": "slides.html#your-turn-ready-steady-go",
-    "href": "slides.html#your-turn-ready-steady-go",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your turn! Ready, steady, go!",
-    "text": "Your turn! Ready, steady, go!\nPlease sign me with 👍 when you are ready."
+    "section": "Let’s get started",
+    "text": "Let’s get started\nIf you wanna follow along the same structure we are going to use, you can copy this GitHub repo.\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
   },
   {
     "objectID": "slides.html#quarto-manuscript-minimal-folder-structure",
@@ -175,18 +147,11 @@
     "text": "How does it look like once render?\n\n\nso this is how the final product will look like so we have a bunch of matadata regarding autihring, title, pushinjg date, the orher formas, some links that will leadme to the github repositorory as a Binder link, a TOC that I get by default, and embeded notebook that. Also we can see some Quarto fetaures like Figures refrences, equiations.\nAnother cool feature is the hypotesis option thatyou can asee as we higlight some text and Quarto will let you higlight some text and add some annotations,"
   },
   {
-    "objectID": "slides.html#your-turn-render-your-first-qmd-manuscript",
-    "href": "slides.html#your-turn-render-your-first-qmd-manuscript",
+    "objectID": "slides.html#you-can-follow-along-in-your-first-manuscript-quarto-qmd-render",
+    "href": "slides.html#you-can-follow-along-in-your-first-manuscript-quarto-qmd-render",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your Turn: Render your first qmd manuscript",
-    "text": "Your Turn: Render your first qmd manuscript\n\nOpen index.qmd.\nRender and preview the manuscript by hitting the Render button located in the menu bar of the editor\nYou’ll see some output from Quarto in the Background Jobs pane and then a live preview will appear in the Viewer pane.\nChange the title of your index.qmd\nSave the file, re-render, and you’ll see the preview update."
-  },
-  {
-    "objectID": "slides.html#your-turn-ready-steady-go-1",
-    "href": "slides.html#your-turn-ready-steady-go-1",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your turn! Ready, steady, go!",
-    "text": "Your turn! Ready, steady, go!\nPlease sign me with 👍 when you are ready."
+    "section": "You can follow along in your first manuscript quarto qmd render",
+    "text": "You can follow along in your first manuscript quarto qmd render\n\nOpen index.qmd.\nRender and preview the manuscript by hitting the Render button located in the menu bar of the editor\nYou’ll see some output from Quarto in the Background Jobs pane and then a live preview will appear in the Viewer pane.\nChange the title of your index.qmd\nSave the file, re-render, and you’ll see the preview update."
   },
   {
     "objectID": "slides.html#one-qmd-to-rule-all-formats",
@@ -252,32 +217,11 @@
     "text": "Citations\nAnother common style is to place the citation within parentheses at the end of a sentence. You can achieve this by enclosing the citation syntax in square brackets [. For example,\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano [@marrero2019].\n\nWhen rendered, it displays as:\n\n\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al. 2019)."
   },
   {
-    "objectID": "slides.html#citations-4",
-    "href": "slides.html#citations-4",
+    "objectID": "slides.html#lets-dive-into-the-code-by",
+    "href": "slides.html#lets-dive-into-the-code-by",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Citations",
-    "text": "Citations\n\n\n\n\n\n\nTip\n\n\nQuarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html"
-  },
-  {
-    "objectID": "slides.html#your-turn-add-a-citation-to-your-bib-file-and-use-it",
-    "href": "slides.html#your-turn-add-a-citation-to-your-bib-file-and-use-it",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your Turn! Add a citation to your bib file and use it",
-    "text": "Your Turn! Add a citation to your bib file and use it\n\nGo to your bib file and add a citation\nGo back to your index.qmd file and use the citation\nRender your file and chevck the changes"
-  },
-  {
-    "objectID": "slides.html#your-turn-ready-steady-go-2",
-    "href": "slides.html#your-turn-ready-steady-go-2",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your turn! Ready, steady, go!",
-    "text": "Your turn! Ready, steady, go!\nPlease sign me with 👍 when you are ready."
-  },
-  {
-    "objectID": "slides.html#cross-references",
-    "href": "slides.html#cross-references",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Cross References",
-    "text": "Cross References\n\nQuarto can generate cross references that keep track of numbering and linking for you. The general syntax for a cross reference is an @ followed by a label. For example, to reference the timeline figure, you could write: To render the cross references you have to include a word to indicate the type of object being referenced, like “Figure” or “Table”, so this:\n\nLabeled as…\n@fig-timeline\nShould be use used as\n\nEight eruptions have been recorded since the late 1400s (@fig-timeline).\nAnd will look something like\n\n\n\nEight eruptions have been recorded since the late 1400s (Figure 1)."
+    "section": "Let’s dive into the code by:",
+    "text": "Let’s dive into the code by:\n\nAdding a citation\nCross-referencing figures and tables."
   },
   {
     "objectID": "slides.html#cross-references-element-and-prefix",
@@ -299,20 +243,6 @@
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Static Figures, and Images",
     "text": "Static Figures, and Images\nTo include a figure from a file, the markdown syntax looks like:\n![Map of La Palma](images/la-palma-map.png)\nBy using #fig-name-of-image inside curly braces following the image path you can provide the reader a label for cross references. For eg.\n![Map of La Palma](images/la-palma-map.png){#fig-map fig-alt=\"A map of the Canary Islands. The second most west island, La Palma, is highlighted.\"}\n\n\n\n\n\n\nTip\n\n\nIt is recomended to store your in an folder named images/. Your images can be anywhere inside your manuscript project directory, just make sure you include the full path to the image, relative to the location of index.qmd."
-  },
-  {
-    "objectID": "slides.html#authoring-embeded-code-from-other-notebooks",
-    "href": "slides.html#authoring-embeded-code-from-other-notebooks",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Authoring embeded code from other notebooks",
-    "text": "Authoring embeded code from other notebooks\n\nWe can do all the calculations in another notebook (it can be r document but it coould be also be a python notebook if you already are wrking with python) and we can embeded that into outr paper, by refereing to it the codechunck options and embeded notebook options\n\n```{r}\n{{&lt; embed notebooks/explore-earthquakes.qmd#fig-spatial-plot &gt;}}\n```\n\nCreate a folder for your notbooks\nAdd notebooks for calculations/ charts results, etc.\nAdd refreces in your manuscript index.qmd\nUse figures with fig- labels"
-  },
-  {
-    "objectID": "slides.html#authring-embeded-code-from-other-notebooks",
-    "href": "slides.html#authring-embeded-code-from-other-notebooks",
-    "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Authring embeded code from other notebooks",
-    "text": "Authring embeded code from other notebooks"
   },
   {
     "objectID": "slides.html#publishing",
@@ -354,6 +284,6 @@
     "href": "slides.html#thank-you",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Thank you!",
-    "text": "Thank you!\n\n www.linkedin.com/in/betsabe1984\n betsabecohen@gmail.com\n\n www.linkedin.com/in/betsabe1984\n betsabecohen@gmail.com"
+    "text": "Thank you!\n\n https://www.linkedin.com/company/rladies-ba/\n https://rladiesba.netlify.app/"
   }
 ]
