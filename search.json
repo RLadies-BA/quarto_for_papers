@@ -266,11 +266,11 @@
     "text": "Your Turn! Add a citation to your bib file and use it\n\nGo to your bib file and add a citation\nGo back to your index.qmd file and use the citation\nRender your file and chevck the changes"
   },
   {
-    "objectID": "slides.html#your-turn-redy-steady-go",
-    "href": "slides.html#your-turn-redy-steady-go",
+    "objectID": "slides.html#your-turn-ready-steady-go-2",
+    "href": "slides.html#your-turn-ready-steady-go-2",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your turn!: Redy steady go!",
-    "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
+    "section": "Your turn! Ready, steady, go!",
+    "text": "Your turn! Ready, steady, go!\nPlease sign me with 👍 when you are ready."
   },
   {
     "objectID": "slides.html#cross-references",
@@ -294,11 +294,11 @@
     "text": "Cross Reference in visual mode"
   },
   {
-    "objectID": "slides.html#static-figues-and-images",
-    "href": "slides.html#static-figues-and-images",
+    "objectID": "slides.html#static-figures-and-images",
+    "href": "slides.html#static-figures-and-images",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Static Figues and images",
-    "text": "Static Figues and images\nTo include a figure from a file, the markdown syntax looks like:\n![Map of La Palma](images/la-palma-map.png)\nBy using #fig-name-of-image inside curly braces following the image path you can provide the reader a label for cross references. For eg.\n![Map of La Palma](images/la-palma-map.png){#fig-map fig-alt=\"A map of the Canary Islands. The second most west island, La Palma, is highlighted.\"}\n\n\n\n\n\n\nTip\n\n\nIt is recomended to store your in an folder named images/. Your images can be anywhere inside your manuscript project directory, just make sure you include the full path to the image, relative to the location of index.qmd."
+    "section": "Static Figures, and Images",
+    "text": "Static Figures, and Images\nTo include a figure from a file, the markdown syntax looks like:\n![Map of La Palma](images/la-palma-map.png)\nBy using #fig-name-of-image inside curly braces following the image path you can provide the reader a label for cross references. For eg.\n![Map of La Palma](images/la-palma-map.png){#fig-map fig-alt=\"A map of the Canary Islands. The second most west island, La Palma, is highlighted.\"}\n\n\n\n\n\n\nTip\n\n\nIt is recomended to store your in an folder named images/. Your images can be anywhere inside your manuscript project directory, just make sure you include the full path to the image, relative to the location of index.qmd."
   },
   {
     "objectID": "slides.html#authring-embeded-code-from-other-notebooks",
