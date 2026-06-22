@@ -179,21 +179,8 @@ If you just want to create one Quarto document for your journal you can find som
 
 ![](img/quarto-journal-templates.png)
 
-## Installing the templates from your terminal
+## Let's dive in!
 
-![](img/create-journal-project-from-terminal.gif)
-
-## How does the journal template file looks like
-
-::: notes
-Once we have copy the template the file folder will look something like this.
-:::
-
-![](img/journal-project-created-from-template.png)
-
-## Rendering a Journal paper
-
-![](img/journal-paper-render.gif)
 
 ## Getting started with a manuscript: create a manuscript project
 
@@ -216,30 +203,8 @@ All the things that we are going to see can also apply to Journal paper the only
 Learn how to Track your project with Git and host on GitHub for happy publishing.
 :::
 
-## Your Turn! Option 1
 
-::: notes
-As I asume that maybe not all of you have experience working with git hub we're gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts.
-If you are familiarizedf eith github you'll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section.
-Go to your RStudio Terminal and create a new project from scratch by tiping the following text.
-:::
-
-If you already have a peper of your own (with different r files with code) go to your RStudio Terminal and create a new project from scratch
-
-``` {.bash filename="Terminal"}
-quarto create project manuscript indo-rct
-
-Creating project at /Users/mine/indo-rct:
-  - Created _quarto.yml
-  - Created index.qmd
-  - Created references.bib
- ? Open With
-   vscode
- ❯ rstudio
-   (don't open)
-```
-
-## Your Turn! Option 2 {.smaller}
+## Let's get started {.smaller}
 
 If you wanna follow along the same structure we are going to use, you can copy this GitHub repo.
 
@@ -247,11 +212,6 @@ https://github.com/quarto-ext/manuscript-template-rstudio/tree/main
 
 ![](img/manuscript-github-sample.png){fig-align = "center"}
 
-## Your turn! Ready, steady, go!
-
-Please sign me with 👍 when you are ready.
-
-![](https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif)
 
 ## Quarto manuscript: minimal folder structure
 
@@ -309,7 +269,7 @@ Also we can see some **Quarto fetaures** like **Figures refrences**, equiations.
 Another cool feature is the hypotesis option thatyou can asee as we higlight some text and Quarto will let you higlight some text and add some annotations,
 :::
 
-## Your Turn: Render your first qmd manuscript
+## You can follow along in your first manuscript quarto qmd render
 
 -   Open index.qmd.
 -   Render and preview the manuscript by hitting the Render button located in the menu bar of the editor
@@ -317,9 +277,6 @@ Another cool feature is the hypotesis option thatyou can asee as we higlight som
 -   Change the title of your index.qmd
 -   Save the file, re-render, and you'll see the preview update.
 
-## Your turn! Ready, steady, go!
-
-Please sign me with 👍 when you are ready.
 
 ## One qmd to rule all formats
 
@@ -506,52 +463,13 @@ When rendered, it displays as:
 
 > A prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al. 2019).
 
-## Citations
 
-::: callout-tip
-Quarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities.
-You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html
-:::
+## Let's dive into the code by: 
 
-## Your Turn! Add a citation to your bib file and use it
+- Adding a citation
+- Cross-referencing figures and tables.
 
--   Go to your bib file and add a citation
--   Go back to your index.qmd file and use the citation
--   Render your file and chevck the changes
 
-## Your turn! Ready, steady, go!
-
-Please sign me with 👍 when you are ready.
-
-![](https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif)
-
-## Cross References
-
-::: notes
-Quarto can generate cross references that keep track of numbering and linking for you.
-The general syntax for a cross reference is an `@` followed by a `label`.
-For example, to reference the timeline figure, you could write: To render the cross references you have to include a word to indicate the type of object being referenced, like “Figure” or “Table”, so this:
-:::
-
-Labeled as...
-
-``` markdown
-@fig-timeline
-```
-
-Should be use used as
-
-. . .
-
-``` markdown
-Eight eruptions have been recorded since the late 1400s (@fig-timeline).
-```
-
-And will look something like
-
-. . .
-
-> Eight eruptions have been recorded since the late 1400s (Figure 1).
 
 ## Cross References element and prefix
 
@@ -593,24 +511,6 @@ It is recomended to store your in an folder named images/.
 Your images can be anywhere inside your manuscript project directory, just make sure you include the full path to the image, relative to the location of `index.qmd.`
 :::
 
-## Authoring embeded code from other notebooks
-
-::: notes
-We can do all the calculations in another notebook (it can be r document but it coould be also be a python notebook if you already are wrking with python) and we can embeded that into outr paper, by refereing to it the codechunck options and embeded notebook options
-:::
-
-```{{r}}
-{{< embed notebooks/explore-earthquakes.qmd#fig-spatial-plot >}}
-```
-
--   Create a folder for your notbooks
--   Add notebooks for calculations/ charts results, etc.
--   Add refreces in your manuscript index.qmd
--   Use figures with fig- labels
-
-## Authring embeded code from other notebooks
-
-![](img/manuscript-emebeded-notebook-figures.gif)
 
 ## Publishing
 
@@ -652,13 +552,9 @@ You can learn more about publishing at https://quarto.org/docs/publishing/
 
 <br>
 
-{{< fa brands linkedin >}} [www.linkedin.com/in/betsabe1984](https://www.linkedin.com/in/betsabe1984)
+{{< fa brands linkedin >}} [https://www.linkedin.com/company/rladies-ba/](https://www.linkedin.com/company/rladies-ba/)
 
-{{< fa envelope title="An envelope" >}} [betsabecohen\@gmail.com](mailito:betsabecohen@gmail.com)
+{{< fa globe title="A globe" >}} [https://rladiesba.netlify.app/](https://rladiesba.netlify.app/)
 
-<br>
 
-{{< fa brands linkedin >}} [www.linkedin.com/in/betsabe1984](https://www.linkedin.com/in/jesica-formoso/)
-
-{{< fa envelope title="An envelope" >}} [betsabecohen\@gmail.com](mailito:jesica.formoso@gmail.com)
 
