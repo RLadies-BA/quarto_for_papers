@@ -587,7 +587,7 @@ It is recomended to store your in an folder named images/.
 Your images can be anywhere inside your manuscript project directory, just make sure you include the full path to the image, relative to the location of `index.qmd.`
 :::
 
-## Authring embeded code from other notebooks
+## Authoring embeded code from other notebooks
 
 ::: notes
 We can do all the calculations in another notebook (it can be r document but it coould be also be a python notebook if you already are wrking with python) and we can embeded that into outr paper, by refereing to it the codechunck options and embeded notebook options
@@ -606,7 +606,7 @@ We can do all the calculations in another notebook (it can be r document but it 
 
 ![](img/manuscript-emebeded-notebook-figures.gif)
 
-## Publising
+## Publishing
 
 To publish your site on GitHub Pages simply tipe
 
@@ -648,6 +648,11 @@ You can learn more about publishing at https://quarto.org/docs/publishing/
 
 {{< fa brands linkedin >}} [www.linkedin.com/in/betsabe1984](https://www.linkedin.com/in/betsabe1984)
 
+{{< fa envelope title="An envelope" >}} [betsabecohen\@gmail.com](mailito:betsabecohen@gmail.com)
+
 <br>
 
-{{< fa envelope title="An envelope" >}} [betsabecohen\@gmail.com](mailito:betsabecohen@gmail.com)
+{{< fa brands linkedin >}} [www.linkedin.com/in/betsabe1984](https://www.linkedin.com/in/jesica-formoso/)
+
+{{< fa envelope title="An envelope" >}} [betsabecohen\@gmail.com](mailito:jesica.formoso@gmail.com)
+
