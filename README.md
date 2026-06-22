@@ -1,12 +1,6 @@
 # From Code to Paper: Reproducible Research with Quarto
 
-Welcome! This repository accompanies the talk **"From Code to Paper: Reproducible Research with Quarto"**, part of the SATRA Foundation's *Introduction to Data Science with R* series, hosted by the SARA Institute of Data Science.
-
-🎯 **Goal of this session**\
-Help early-career researchers and first-time coders understand how to use R and Quarto to create long-form, reproducible documents like thesis manuscripts, academic reports, and even personal websites.
-
-------------------------------------------------------------------------
-
+Welcome! This repository accompanies the talk **"From Code to Paper: Reproducible Research with Quarto"**
 ## 🧠 What You'll Learn
 
 -   Why reproducibility matters in research\
@@ -34,8 +28,3 @@ To follow along, please install:
 If you enjoyed the talk and want to learn more about Quarto, R, or reproducible research:
 
 -   🐦 Follow [\@RLadiesBuenosAires](https://x.com/RLadiesBA) or join a local chapter near you
--   💜 Follow [\@nucleois](https://www.linkedin.com/company/nucleois/) to know more about our organization
--   💌 Reach out via GitHub or LinkedIn -- always happy to chat!
-
-Happy coding & writing!\
---- *Betsy Cohen, RLadies Buenos Aires / Núcleo de Innovación Social*
