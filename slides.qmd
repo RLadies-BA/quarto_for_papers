@@ -243,7 +243,7 @@ https://github.com/quarto-ext/manuscript-template-rstudio/tree/main
 
 ## Your turn! Ready, steady, go!
 
-👍 Please sign me with when you are ready.
+Please sign me with 👍 when you are ready.
 
 ![](https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif)
 
@@ -311,9 +311,9 @@ Another cool feature is the hypotesis option thatyou can asee as we higlight som
 -   Change the title of your index.qmd
 -   Save the file, re-render, and you'll see the preview update.
 
-## Your turn!: Redy steady go!
+## Your turn! Ready, steady, go!
 
-👍 Please sign me with when you are ready.
+Please sign me with 👍 when you are ready.
 
 ## One qmd to rule all formats
 
