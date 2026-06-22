@@ -301,25 +301,25 @@
     "text": "Static Figures, and Images\nTo include a figure from a file, the markdown syntax looks like:\n![Map of La Palma](images/la-palma-map.png)\nBy using #fig-name-of-image inside curly braces following the image path you can provide the reader a label for cross references. For eg.\n![Map of La Palma](images/la-palma-map.png){#fig-map fig-alt=\"A map of the Canary Islands. The second most west island, La Palma, is highlighted.\"}\n\n\n\n\n\n\nTip\n\n\nIt is recomended to store your in an folder named images/. Your images can be anywhere inside your manuscript project directory, just make sure you include the full path to the image, relative to the location of index.qmd."
   },
   {
-    "objectID": "slides.html#authring-embeded-code-from-other-notebooks",
-    "href": "slides.html#authring-embeded-code-from-other-notebooks",
+    "objectID": "slides.html#authoring-embeded-code-from-other-notebooks",
+    "href": "slides.html#authoring-embeded-code-from-other-notebooks",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Authring embeded code from other notebooks",
-    "text": "Authring embeded code from other notebooks\n\nWe can do all the calculations in another notebook (it can be r document but it coould be also be a python notebook if you already are wrking with python) and we can embeded that into outr paper, by refereing to it the codechunck options and embeded notebook options\n\n```{r}\n{{&lt; embed notebooks/explore-earthquakes.qmd#fig-spatial-plot &gt;}}\n```\n\nCreate a folder for your notbooks\nAdd notebooks for calculations/ charts results, etc.\nAdd refreces in your manuscript index.qmd\nUse figures with fig- labels"
+    "section": "Authoring embeded code from other notebooks",
+    "text": "Authoring embeded code from other notebooks\n\nWe can do all the calculations in another notebook (it can be r document but it coould be also be a python notebook if you already are wrking with python) and we can embeded that into outr paper, by refereing to it the codechunck options and embeded notebook options\n\n```{r}\n{{&lt; embed notebooks/explore-earthquakes.qmd#fig-spatial-plot &gt;}}\n```\n\nCreate a folder for your notbooks\nAdd notebooks for calculations/ charts results, etc.\nAdd refreces in your manuscript index.qmd\nUse figures with fig- labels"
   },
   {
-    "objectID": "slides.html#authring-embeded-code-from-other-notebooks-1",
-    "href": "slides.html#authring-embeded-code-from-other-notebooks-1",
+    "objectID": "slides.html#authring-embeded-code-from-other-notebooks",
+    "href": "slides.html#authring-embeded-code-from-other-notebooks",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Authring embeded code from other notebooks",
     "text": "Authring embeded code from other notebooks"
   },
   {
-    "objectID": "slides.html#publising",
-    "href": "slides.html#publising",
+    "objectID": "slides.html#publishing",
+    "href": "slides.html#publishing",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Publising",
-    "text": "Publising\nTo publish your site on GitHub Pages simply tipe\n\n\nTerminal\n\nquarto publish\n\nChoose GitHub Pages or the platform you prefer.\nYou can learn more about publishing at https://quarto.org/docs/publishing/"
+    "section": "Publishing",
+    "text": "Publishing\nTo publish your site on GitHub Pages simply tipe\n\n\nTerminal\n\nquarto publish\n\nChoose GitHub Pages or the platform you prefer.\nYou can learn more about publishing at https://quarto.org/docs/publishing/"
   },
   {
     "objectID": "slides.html#what-else-can-i-do-with-quarto-presentations",
@@ -354,6 +354,6 @@
     "href": "slides.html#thank-you",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Thank you!",
-    "text": "Thank you!\n\n www.linkedin.com/in/betsabe1984\n\n betsabecohen@gmail.com"
+    "text": "Thank you!\n\n www.linkedin.com/in/betsabe1984\n betsabecohen@gmail.com\n\n www.linkedin.com/in/betsabe1984\n betsabecohen@gmail.com"
   }
 ]
