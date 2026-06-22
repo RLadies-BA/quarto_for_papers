@@ -137,7 +137,7 @@
     "href": "slides.html#your-turn-option-2",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your Turn! Option 2",
-    "text": "Your Turn! Option 2\nIf you wanna follow along the same structure we are going to you can copy the repo from github repo\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
+    "text": "Your Turn! Option 2\nIf you wanna follow along the same structure we are going to use, you can copy this GitHub repo.\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
   },
   {
     "objectID": "slides.html#your-turn-ready-steady-go",
