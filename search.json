@@ -144,7 +144,7 @@
     "href": "slides.html#your-turn-ready-steady-go",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your turn! Ready, steady, go!",
-    "text": "Your turn! Ready, steady, go!\n👍 Please sign me with when you are ready."
+    "text": "Your turn! Ready, steady, go!\nPlease sign me with 👍 when you are ready."
   },
   {
     "objectID": "slides.html#quarto-manuscript-minimal-folder-structure",
@@ -182,11 +182,11 @@
     "text": "Your Turn: Render your first qmd manuscript\n\nOpen index.qmd.\nRender and preview the manuscript by hitting the Render button located in the menu bar of the editor\nYou’ll see some output from Quarto in the Background Jobs pane and then a live preview will appear in the Viewer pane.\nChange the title of your index.qmd\nSave the file, re-render, and you’ll see the preview update."
   },
   {
-    "objectID": "slides.html#your-turn-redy-steady-go",
-    "href": "slides.html#your-turn-redy-steady-go",
+    "objectID": "slides.html#your-turn-ready-steady-go-1",
+    "href": "slides.html#your-turn-ready-steady-go-1",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your turn!: Redy steady go!",
-    "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
+    "section": "Your turn! Ready, steady, go!",
+    "text": "Your turn! Ready, steady, go!\nPlease sign me with 👍 when you are ready."
   },
   {
     "objectID": "slides.html#one-qmd-to-rule-all-formats",
@@ -266,8 +266,8 @@
     "text": "Your Turn! Add a citation to your bib file and use it\n\nGo to your bib file and add a citation\nGo back to your index.qmd file and use the citation\nRender your file and chevck the changes"
   },
   {
-    "objectID": "slides.html#your-turn-redy-steady-go-1",
-    "href": "slides.html#your-turn-redy-steady-go-1",
+    "objectID": "slides.html#your-turn-redy-steady-go",
+    "href": "slides.html#your-turn-redy-steady-go",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your turn!: Redy steady go!",
     "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
