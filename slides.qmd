@@ -61,13 +61,13 @@ I'm Betsy Cohen I'm currently organizer at: **RLadies Buenos Aires**: A global o
 
 -   Learning More
 
-## Over shoulders of giagants
+## On the shoulders of giants
 
 This presentation is based on:
 
 -   [Quarto Manuscripts official documentation](https://quarto.org/docs/manuscripts/)
 
--   "Slides and materials for the"Reproducible Manuscripts with Quarto" talk at posit::conf(2023). by [Mine Çetinkaya-Rundel](https://mine.quarto.pub/manuscripts-conf23/#/title-slide)
+-   Slides and materials for the"Reproducible Manuscripts with Quarto" talk at posit::conf(2023). by [Mine Çetinkaya-Rundel](https://mine.quarto.pub/manuscripts-conf23/#/title-slide)
 
 -   Quarto for Academics [video](https://www.youtube.com/watch?v=EbAAmrB0luA&list=PL8se4oifL2ThKAU95XXjThAcuCqJr--8I&index=10) on YouTube by Mine Çetinkaya-Rundel and Posit
 
@@ -173,7 +173,7 @@ If you just want to create one Quarto document for your journal you can find som
 
 ![](img/quarto-journal-templates.png)
 
-## Intsalling the templates from your terminal
+## Installing the templates from your terminal
 
 ![](img/create-journal-project-from-terminal.gif)
 
@@ -218,7 +218,7 @@ If you are familiarizedf eith github you'll finde the cmplete worknlow in the Qu
 Go to your RStudio Terminal and create a new project from scratch by tiping the following text.
 :::
 
-If you already have a peper of your own (with differnt r files with code) go to your RStudio Terminal and create a new project from scratch
+If you already have a peper of your own (with different r files with code) go to your RStudio Terminal and create a new project from scratch
 
 ``` {.bash filename="Terminal"}
 quarto create project manuscript indo-rct
@@ -241,7 +241,7 @@ https://github.com/quarto-ext/manuscript-template-rstudio/tree/main
 
 ![](img/manuscript-github-sample.png){fig-align = "center"}
 
-## Your turn!: Redy steady go!
+## Your turn! Ready, steady, go!
 
 👍 Please sign me with when you are ready.
 
