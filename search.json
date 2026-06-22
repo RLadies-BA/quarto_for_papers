@@ -42,11 +42,11 @@
     "text": "Agenda\n\nWhy Reproducibility?\nWhat is Quarto?\nCore Use Cases: a short walk around\nAcademic Production with Quarto Journal and Manuscripts\n\nJournal Templates\nQuarto Manuscript Projects\nCitations, Cross references, and authoring\n\nLearning More"
   },
   {
-    "objectID": "slides.html#over-shoulders-of-giagants",
-    "href": "slides.html#over-shoulders-of-giagants",
+    "objectID": "slides.html#on-the-shoulders-of-giants",
+    "href": "slides.html#on-the-shoulders-of-giants",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Over shoulders of giagants",
-    "text": "Over shoulders of giagants\nThis presentation is based on:\n\nQuarto Manuscripts official documentation\n“Slides and materials for the”Reproducible Manuscripts with Quarto” talk at posit::conf(2023). by Mine Çetinkaya-Rundel\nQuarto for Academics video on YouTube by Mine Çetinkaya-Rundel and Posit\nR/Medicine: Quarto for Reproducible Medical Manuscripts by Mine Cetinkaya-Rundel webinar in youtube video\nThe Turing Way Community, & Scriberia.(2024) on https://book.the-turing-way.org/"
+    "section": "On the shoulders of giants",
+    "text": "On the shoulders of giants\nThis presentation is based on:\n\nQuarto Manuscripts official documentation\nSlides and materials for the”Reproducible Manuscripts with Quarto” talk at posit::conf(2023). by Mine Çetinkaya-Rundel\nQuarto for Academics video on YouTube by Mine Çetinkaya-Rundel and Posit\nR/Medicine: Quarto for Reproducible Medical Manuscripts by Mine Cetinkaya-Rundel webinar in youtube video\nThe Turing Way Community, & Scriberia.(2024) on https://book.the-turing-way.org/"
   },
   {
     "objectID": "slides.html#what-do-we-mean-by-reproductibility",
@@ -98,11 +98,11 @@
     "text": "Journals\n\nIf you just want to create one Quarto document for your journal you can find some templates in the GitHub repo at https://github.com/quarto-journals"
   },
   {
-    "objectID": "slides.html#intsalling-the-templates-from-your-terminal",
-    "href": "slides.html#intsalling-the-templates-from-your-terminal",
+    "objectID": "slides.html#installing-the-templates-from-your-terminal",
+    "href": "slides.html#installing-the-templates-from-your-terminal",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Intsalling the templates from your terminal",
-    "text": "Intsalling the templates from your terminal"
+    "section": "Installing the templates from your terminal",
+    "text": "Installing the templates from your terminal"
   },
   {
     "objectID": "slides.html#how-does-the-journal-template-file-looks-like",
@@ -130,7 +130,7 @@
     "href": "slides.html#your-turn-option-1",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your Turn! Option 1",
-    "text": "Your Turn! Option 1\n\nAs I asume that maybe not all of you have experience working with git hub we’re gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts. If you are familiarizedf eith github you’ll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section. Go to your RStudio Terminal and create a new project from scratch by tiping the following text.\n\nIf you already have a peper of your own (with differnt r files with code) go to your RStudio Terminal and create a new project from scratch\n\n\nTerminal\n\nquarto create project manuscript indo-rct\n\nCreating project at /Users/mine/indo-rct:\n  - Created _quarto.yml\n  - Created index.qmd\n  - Created references.bib\n ? Open With\n   vscode\n ❯ rstudio\n   (don't open)"
+    "text": "Your Turn! Option 1\n\nAs I asume that maybe not all of you have experience working with git hub we’re gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts. If you are familiarizedf eith github you’ll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section. Go to your RStudio Terminal and create a new project from scratch by tiping the following text.\n\nIf you already have a peper of your own (with different r files with code) go to your RStudio Terminal and create a new project from scratch\n\n\nTerminal\n\nquarto create project manuscript indo-rct\n\nCreating project at /Users/mine/indo-rct:\n  - Created _quarto.yml\n  - Created index.qmd\n  - Created references.bib\n ? Open With\n   vscode\n ❯ rstudio\n   (don't open)"
   },
   {
     "objectID": "slides.html#your-turn-option-2",
@@ -140,11 +140,11 @@
     "text": "Your Turn! Option 2\nIf you wanna follow along the same structure we are going to you can copy the repo from github repo\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
   },
   {
-    "objectID": "slides.html#your-turn-redy-steady-go",
-    "href": "slides.html#your-turn-redy-steady-go",
+    "objectID": "slides.html#your-turn-ready-steady-go",
+    "href": "slides.html#your-turn-ready-steady-go",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your turn!: Redy steady go!",
-    "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
+    "section": "Your turn! Ready, steady, go!",
+    "text": "Your turn! Ready, steady, go!\n👍 Please sign me with when you are ready."
   },
   {
     "objectID": "slides.html#quarto-manuscript-minimal-folder-structure",
@@ -182,8 +182,8 @@
     "text": "Your Turn: Render your first qmd manuscript\n\nOpen index.qmd.\nRender and preview the manuscript by hitting the Render button located in the menu bar of the editor\nYou’ll see some output from Quarto in the Background Jobs pane and then a live preview will appear in the Viewer pane.\nChange the title of your index.qmd\nSave the file, re-render, and you’ll see the preview update."
   },
   {
-    "objectID": "slides.html#your-turn-redy-steady-go-1",
-    "href": "slides.html#your-turn-redy-steady-go-1",
+    "objectID": "slides.html#your-turn-redy-steady-go",
+    "href": "slides.html#your-turn-redy-steady-go",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your turn!: Redy steady go!",
     "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
@@ -266,8 +266,8 @@
     "text": "Your Turn! Add a citation to your bib file and use it\n\nGo to your bib file and add a citation\nGo back to your index.qmd file and use the citation\nRender your file and chevck the changes"
   },
   {
-    "objectID": "slides.html#your-turn-redy-steady-go-2",
-    "href": "slides.html#your-turn-redy-steady-go-2",
+    "objectID": "slides.html#your-turn-redy-steady-go-1",
+    "href": "slides.html#your-turn-redy-steady-go-1",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Your turn!: Redy steady go!",
     "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
