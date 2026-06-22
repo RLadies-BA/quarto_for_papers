@@ -513,9 +513,9 @@ You can learn more about it the Citation documentation at https://quarto.org/doc
 -   Go back to your index.qmd file and use the citation
 -   Render your file and chevck the changes
 
-## Your turn!: Redy steady go!
+## Your turn! Ready, steady, go!
 
-👍 Please sign me with when you are ready.
+Please sign me with 👍 when you are ready.
 
 ![](https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif)
 
@@ -567,7 +567,7 @@ To cross reference sections your document YAML header must also include `number-
 
 ![](img/manuscript-cross-reference-visual-mode.gif)
 
-## Static Figues and images
+## Static Figures, and Images
 
 To include a figure from a file, the markdown syntax looks like:
 
