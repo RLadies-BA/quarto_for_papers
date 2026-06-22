@@ -235,7 +235,7 @@ Creating project at /Users/mine/indo-rct:
 
 ## Your Turn! Option 2 {.smaller}
 
-If you wanna follow along the same structure we are going to you can copy the repo from github repo
+If you wanna follow along the same structure we are going to use, you can copy this GitHub repo.
 
 https://github.com/quarto-ext/manuscript-template-rstudio/tree/main
 
