@@ -181,9 +181,6 @@ If you just want to create one Quarto document for your journal you can find som
 
 ## Let's dive in!
 
-- Open RStudio
-- Go to the terminal
-- Install a journal template: [https://github.com/quarto-journals[(https://github.com/quarto-journals)
 
 ## Getting started with a manuscript: create a manuscript project
 
