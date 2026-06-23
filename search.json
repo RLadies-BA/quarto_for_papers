@@ -147,11 +147,11 @@
     "text": "Code Chuncks Options\nYou can add Quarto options to code cells by adding a #| comment to the top, followed by the option in YAML syntax. For example, adding the echo option with the value true would look like this:\n\nThe echo option describes whether the code is included in the rendered article. If you make this change and save index.qmd, you’ll see this code now appears in the article.\n\n\n\n\n\n\nCode chunk options guide\n\n\nYou can find a list of all the code cell options available on the Knitr Code Cell reference page at https://quarto.org/docs/reference/cells/cells-knitr.html"
   },
   {
-    "objectID": "slides.html#code-chunks-options-from-yaml",
-    "href": "slides.html#code-chunks-options-from-yaml",
+    "objectID": "slides.html#code-chunk-options-from-yaml",
+    "href": "slides.html#code-chunk-options-from-yaml",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Code chunks options from YAML",
-    "text": "Code chunks options from YAML"
+    "section": "Code chunk options from YAML",
+    "text": "Code chunk options from YAML"
   },
   {
     "objectID": "slides.html#quarto-can",
