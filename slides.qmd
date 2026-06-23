@@ -342,7 +342,7 @@ https://github.com/quarto-ext/manuscript-template-rstudio/tree/main
 
 ![](img/manuscript-github-sample.png){fig-align = "center"}
 
-## Your turn!: Redy steady go!
+## Your turn!: Ready, steady, go!
 
 👍 Please sign me with when you are ready.
 
@@ -600,10 +600,52 @@ When rendered, it displays as:
 > A prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al. 2019).
 
 
-## Let's dive into the code by: 
+## Citations
 
-- Adding a citation
-- Cross-referencing figures and tables.
+::: callout-tip
+Quarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html 
+:::
+
+
+## Your Turn! Add a citation to your bib file and use it
+
+-   Go to your bib file and add a citation
+-   Go back to your index.qmd file and use the citation
+-   Render your file and chevck the changes
+
+## Your turn!: Ready, steady, go!
+
+👍 Please sign me with when you are ready.
+
+![](https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif)
+
+
+## Cross References 
+
+:::notes
+Quarto can generate cross references that keep track of numbering and linking for you. The general syntax for a cross reference is an `@` followed by a `label`. For example, to reference the timeline figure, you could write:
+To render the cross references you have to include a word to indicate the type of object being referenced, like “Figure” or “Table”, so this:
+:::
+
+Labeled as...
+
+``` markdown
+@fig-timeline
+```
+Should be use used as
+
+.   .   .
+
+``` markdown
+Eight eruptions have been recorded since the late 1400s (@fig-timeline).
+```
+And will look something like
+
+.   .   .
+
+> Eight eruptions have been recorded since the late 1400s (Figure 1).
+
+
 
 
 
