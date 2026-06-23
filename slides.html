@@ -373,6 +373,143 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
 </div>
 </section></section>
 <section>
+<section id="a-short-walk-around" class="title-slide slide level1 center">
+<h1>A short walk around</h1>
+
+</section>
+<section id="install-quarto" class="slide level2">
+<h2>Install Quarto</h2>
+
+<img data-src="img/install_quarto.gif" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="create-a-quarto-file-in-a-project-we-already-have-in-our-computer" class="slide level2">
+<h2>Create a Quarto File in a project we already have in our computer</h2>
+
+<img data-src="img/create_qmd_file.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="create-a-new-quarto-project" class="slide level2">
+<h2>Create a New Quarto Project</h2>
+
+<img data-src="img/new_project_wizard_quarto.png" class="quarto-figure quarto-figure-left r-stretch"></section>
+<section id="general-folder-structure-in-a-quarto-project" class="slide level2">
+<h2>General folder structure in a Quarto Project</h2>
+
+<img data-src="img/quarto_project_schema.png" class="r-stretch"><aside class="notes">
+<p>When we create a Quarto project we’ll automatically create RPorj file (as in any other Quarto project) and a .yml file (for the entire project), my Quarto document (the one that has the .qmd extension.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="quarto-file-general-structure" class="slide level2">
+<h2>Quarto file general structure</h2>
+
+<img data-src="img/quart-html-file-1.png" class="r-stretch"><aside class="notes">
+<p>For those of you have worked with RMarkdown before this should be familiar, at the top we have a YAML with some metadata about our file, like the title, format (we’ll start by an html)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="visual-mode-vs-source-mode" class="slide level2">
+<h2>Visual mode vs Source mode</h2>
+
+<img data-src="https://quarto.org/docs/visual-editor/images/visual-editing-switch-modes.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>The Quarto visual editor is currently available as a feature of the&nbsp;<a href="https://posit.co/download/rstudio-desktop/">RStudio IDE</a>. The visual editor will eventually also be made available in standalone form. You can switch over the source editor, and things should look pretty familiar to you.</p>
+<p>The visual editor where you get a documeny that feels similar to a Google Doc in an app-like notion wehere yjos are a liitle bit more you see-what-you-get.</p>
+<p>For example I hace some infromation about the data set and I may want to bold the name if the package.</p>
+<p>I can add a link to a website.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="visual-mode-shortcuts" class="slide level2">
+<h2>Visual mode shortcuts</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="https://quarto.org/docs/visual-editor/images/visual-editing-omni-list.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://quarto.org/docs/visual-editor/images/visual-editing-omni-math.png"></p>
+</div></div>
+</section>
+<section id="insert-code-chuncks" class="slide level2">
+<h2>Insert Code Chuncks</h2>
+<aside class="notes">
+<p>In the same way that we did in RMarkdown we can add chunck codes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+<img data-src="img/insert code chunck.gif" class="r-stretch"></section>
+<section id="code-cuncks-options" class="slide level2">
+<h2>Code cuncks options</h2>
+<aside class="notes">
+<p>As is RMarkdown Quarto allows us to control different aspects of how chunks behave</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+<img data-src="img/quarto-code-chunck-options.png" class="r-stretch"></section>
+<section id="code-chuncks-options" class="slide level2 smaller">
+<h2>Code Chuncks Options</h2>
+<p>You can add Quarto options to code cells by adding a #| comment to the top, followed by the option in YAML syntax. For example, adding the echo option with the value true would look like this:</p>
+
+<img data-src="img/quarto-code-chunck-options-2.png" width="848" class="r-stretch"><p>The <code>echo</code> option describes whether the code is included in the rendered article. If you make this change and save index.qmd, you’ll see this code now appears in the article.</p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Code chunk options guide</strong></p>
+</div>
+<div class="callout-content">
+<p>You can find a list of all the code cell options available on the&nbsp;Knitr Code Cell&nbsp;reference page at <a href="https://quarto.org/docs/reference/cells/cells-knitr.html" class="uri">https://quarto.org/docs/reference/cells/cells-knitr.html</a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="code-chunks-options-from-yaml" class="slide level2">
+<h2>Code chunks options from YAML</h2>
+
+<img data-src="img/quarto-code-chunck-options-yml.png" class="r-stretch"></section></section>
+<section>
 <section id="quarto-for-manuscripts-and-journal-articles" class="title-slide slide level1 center">
 <h1>Quarto for manuscripts and journal articles</h1>
 
@@ -411,9 +548,31 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
       }</style></aside>
 
 <img data-src="img/quarto-journal-templates.png" class="r-stretch"></section>
-<section id="lets-dive-in" class="slide level2">
-<h2>Let’s dive in!</h2>
-</section>
+<section id="installing-the-templates-from-your-terminal" class="slide level2">
+<h2>Installing the templates from your terminal</h2>
+
+<img data-src="img/create-journal-project-from-terminal.gif" class="r-stretch"></section>
+<section id="how-does-the-journal-template-file-looks-like" class="slide level2">
+<h2>How does the journal template file looks like</h2>
+<aside class="notes">
+<p>Once we have copy the template the file folder will look something like this.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+<img data-src="img/journal-project-created-from-template.png" class="r-stretch"></section>
+<section id="rendering-a-journal-paper" class="slide level2">
+<h2>Rendering a Journal paper</h2>
+
+<img data-src="img/journal-paper-render.gif" class="r-stretch"></section>
 <section id="getting-started-with-a-manuscript-create-a-manuscript-project" class="slide level2">
 <h2>Getting started with a manuscript: create a manuscript project</h2>
 <aside class="notes">
