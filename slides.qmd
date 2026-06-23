@@ -147,6 +147,100 @@ Take a visit to Quarto Gallery [here](https://quarto.org/docs/gallery/)
 -   📽️**Interactivity:** Engage readers by adding interactive data exploration to your documents using Jupyter Widgets, htmlwidgets for R, Observable JS, and Shiny.
 :::
 
+# A short walk around
+
+## Install Quarto
+
+![](img/install_quarto.gif){fig-align="center"}
+
+## Create a Quarto File in a project we already have in our computer
+
+![](img/create_qmd_file.png){fig-align="center"}
+
+## Create a New Quarto Project
+
+![](img/new_project_wizard_quarto.png){fig-align="left"}
+
+## General folder structure in a Quarto Project
+
+![](img/quarto_project_schema.png)
+
+::: notes
+When we create a Quarto project we'll automatically create RPorj file (as in any other Quarto project) and a .yml file (for the entire project), my Quarto document (the one that has the .qmd extension.
+:::
+
+## Quarto file general structure
+
+![](img/quart-html-file-1.png)
+
+::: notes
+For those of you have worked with RMarkdown before this should be familiar, at the top we have a YAML with some metadata about our file, like the title, format (we'll start by an html)
+:::
+
+## Visual mode vs Source mode
+
+![](https://quarto.org/docs/visual-editor/images/visual-editing-switch-modes.png){fig-align="center"}
+
+::: notes
+The Quarto visual editor is currently available as a feature of the [RStudio IDE](https://posit.co/download/rstudio-desktop/). The visual editor will eventually also be made available in standalone form.
+You can switch over the source editor, and things should look pretty familiar to you.
+
+The visual editor where you get a documeny that feels similar to a Google Doc in an app-like notion wehere yjos are a liitle bit more you see-what-you-get.
+
+For example I hace some infromation about the data set and I may want to bold the name if the package.
+
+I can add a link to a website.
+:::
+
+## Visual mode shortcuts
+
+::: columns
+::: {.column width="50%"}
+![](https://quarto.org/docs/visual-editor/images/visual-editing-omni-list.png)
+:::
+
+::: {.column width="50%"}
+![](https://quarto.org/docs/visual-editor/images/visual-editing-omni-math.png)
+:::
+:::
+
+## Insert Code Chuncks
+
+::: notes
+In the same way that we did in RMarkdown we can add chunck codes
+:::
+
+![](img/insert%20code%20chunck.gif)
+
+## Code cuncks options
+
+::: notes
+As is RMarkdown Quarto allows us to control different aspects of how chunks behave
+:::
+
+![](img/quarto-code-chunck-options.png)
+
+## Code Chuncks Options {.smaller}
+
+You can add Quarto options to code cells by adding a #\| comment to the top, followed by the option in YAML syntax.
+For example, adding the echo option with the value true would look like this:
+
+![](img/quarto-code-chunck-options-2.png){width="848"}
+
+The `echo` option describes whether the code is included in the rendered article.
+If you make this change and save index.qmd, you'll see this code now appears in the article.
+
+::: callout-tip
+### Code chunk options guide
+
+You can find a list of all the code cell options available on the Knitr Code Cell reference page at <https://quarto.org/docs/reference/cells/cells-knitr.html>
+:::
+
+## Code chunks options from YAML
+
+![](img/quarto-code-chunck-options-yml.png)
+
+
 # Quarto for manuscripts and journal articles
 
 ## Quarto can ... {.smaller}
@@ -179,8 +273,21 @@ If you just want to create one Quarto document for your journal you can find som
 
 ![](img/quarto-journal-templates.png)
 
-## Let's dive in!
+## Installing the templates from your terminal
 
+![](img/create-journal-project-from-terminal.gif)
+
+## How does the journal template file looks like
+
+::: notes
+Once we have copy the template the file folder will look something like this. 
+:::
+
+![](img/journal-project-created-from-template.png)
+
+## Rendering a Journal paper
+
+![](img/journal-paper-render.gif)
 
 ## Getting started with a manuscript: create a manuscript project
 
