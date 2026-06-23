@@ -204,15 +204,15 @@ I can add a link to a website.
 :::
 :::
 
-## Insert Code Chuncks
+## Insert Code Chunks
 
 ::: notes
-In the same way that we did in RMarkdown we can add chunck codes
+In the same way that we did in RMarkdown we can add chunk codes
 :::
 
 ![](img/insert%20code%20chunck.gif)
 
-## Code cuncks options
+## Code chunk options
 
 ::: notes
 As is RMarkdown Quarto allows us to control different aspects of how chunks behave
@@ -220,7 +220,7 @@ As is RMarkdown Quarto allows us to control different aspects of how chunks beha
 
 ![](img/quarto-code-chunck-options.png)
 
-## Code Chuncks Options {.smaller}
+## Code Chunk Options {.smaller}
 
 You can add Quarto options to code cells by adding a #\| comment to the top, followed by the option in YAML syntax.
 For example, adding the echo option with the value true would look like this:
@@ -503,7 +503,7 @@ When rendered, it displays as:
 
 > Based on data up to and including 1971, eruptions on La Palma happen every 79.8 years on average.
 
-## Code chuncks for computations using the `lable` and `fig-` options
+## Code chunks for computations using the `lable` and `fig-` options
 
 ::: notes
 So we have already seen the echo option and that we can embeded calculations and references.
