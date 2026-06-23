@@ -452,10 +452,10 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
 <p><img data-src="https://quarto.org/docs/visual-editor/images/visual-editing-omni-math.png"></p>
 </div></div>
 </section>
-<section id="insert-code-chuncks" class="slide level2">
-<h2>Insert Code Chuncks</h2>
+<section id="insert-code-chunks" class="slide level2">
+<h2>Insert Code Chunks</h2>
 <aside class="notes">
-<p>In the same way that we did in RMarkdown we can add chunck codes</p>
+<p>In the same way that we did in RMarkdown we can add chunk codes</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -469,8 +469,8 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
       }</style></aside>
 
 <img data-src="img/insert code chunck.gif" class="r-stretch"></section>
-<section id="code-cuncks-options" class="slide level2">
-<h2>Code cuncks options</h2>
+<section id="code-chunk-options" class="slide level2">
+<h2>Code chunk options</h2>
 <aside class="notes">
 <p>As is RMarkdown Quarto allows us to control different aspects of how chunks behave</p>
 <style type="text/css">
@@ -486,8 +486,8 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
       }</style></aside>
 
 <img data-src="img/quarto-code-chunck-options.png" class="r-stretch"></section>
-<section id="code-chuncks-options" class="slide level2 smaller">
-<h2>Code Chuncks Options</h2>
+<section id="code-chunk-options-1" class="slide level2 smaller">
+<h2>Code Chunk Options</h2>
 <p>You can add Quarto options to code cells by adding a #| comment to the top, followed by the option in YAML syntax. For example, adding the echo option with the value true would look like this:</p>
 
 <img data-src="img/quarto-code-chunck-options-2.png" width="848" class="r-stretch"><p>The <code>echo</code> option describes whether the code is included in the rendered article. If you make this change and save index.qmd, you’ll see this code now appears in the article.</p>
@@ -859,8 +859,8 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
 </blockquote>
 </div>
 </section>
-<section id="code-chuncks-for-computations-using-the-lable-and-fig--options" class="slide level2">
-<h2>Code chuncks for computations using the <code>lable</code> and <code>fig-</code> options</h2>
+<section id="code-chunks-for-computations-using-the-lable-and-fig--options" class="slide level2">
+<h2>Code chunks for computations using the <code>lable</code> and <code>fig-</code> options</h2>
 <aside class="notes">
 <p>So we have already seen the echo option and that we can embeded calculations and references. In this chunck the label option is used to add an identifier to code cell and its output, for example to allow cross referencing. The prefix fig- is required for figure cross references, but the suffix, in this case timeline, is up to you. We’ll get back to Cross References in a moment, but for now the import thing is to understand that the option fig-cap provides the caption text displayed below the figure in the manuscript, and fig-alt provides alt text for the figure, helping your manuscript webpage to meet accessibility guidelines.</p>
 <p>Computations are also a good way to include tables based on data. You can read more about doing this in the Quarto documentation on Tables from Computations.</p>

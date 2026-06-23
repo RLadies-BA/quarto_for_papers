@@ -126,25 +126,25 @@
     "text": "Visual mode shortcuts"
   },
   {
-    "objectID": "slides.html#insert-code-chuncks",
-    "href": "slides.html#insert-code-chuncks",
+    "objectID": "slides.html#insert-code-chunks",
+    "href": "slides.html#insert-code-chunks",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Insert Code Chuncks",
-    "text": "Insert Code Chuncks\n\nIn the same way that we did in RMarkdown we can add chunck codes"
+    "section": "Insert Code Chunks",
+    "text": "Insert Code Chunks\n\nIn the same way that we did in RMarkdown we can add chunk codes"
   },
   {
-    "objectID": "slides.html#code-cuncks-options",
-    "href": "slides.html#code-cuncks-options",
+    "objectID": "slides.html#code-chunk-options",
+    "href": "slides.html#code-chunk-options",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Code cuncks options",
-    "text": "Code cuncks options\n\nAs is RMarkdown Quarto allows us to control different aspects of how chunks behave"
+    "section": "Code chunk options",
+    "text": "Code chunk options\n\nAs is RMarkdown Quarto allows us to control different aspects of how chunks behave"
   },
   {
-    "objectID": "slides.html#code-chuncks-options",
-    "href": "slides.html#code-chuncks-options",
+    "objectID": "slides.html#code-chunk-options-1",
+    "href": "slides.html#code-chunk-options-1",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Code Chuncks Options",
-    "text": "Code Chuncks Options\nYou can add Quarto options to code cells by adding a #| comment to the top, followed by the option in YAML syntax. For example, adding the echo option with the value true would look like this:\n\nThe echo option describes whether the code is included in the rendered article. If you make this change and save index.qmd, you’ll see this code now appears in the article.\n\n\n\n\n\n\nCode chunk options guide\n\n\nYou can find a list of all the code cell options available on the Knitr Code Cell reference page at https://quarto.org/docs/reference/cells/cells-knitr.html"
+    "section": "Code Chunk Options",
+    "text": "Code Chunk Options\nYou can add Quarto options to code cells by adding a #| comment to the top, followed by the option in YAML syntax. For example, adding the echo option with the value true would look like this:\n\nThe echo option describes whether the code is included in the rendered article. If you make this change and save index.qmd, you’ll see this code now appears in the article.\n\n\n\n\n\n\nCode chunk options guide\n\n\nYou can find a list of all the code cell options available on the Knitr Code Cell reference page at https://quarto.org/docs/reference/cells/cells-knitr.html"
   },
   {
     "objectID": "slides.html#code-chunk-options-from-yaml",
@@ -287,11 +287,11 @@
     "text": "Using computations in the body of youtr text\nYou can use computed values directly in your article text using the syntax `{r} expr`. For example, consider this line in index.qmd:\nBased on data up to and including 1971, eruptions on La Palma happen every `{r} round(avg_years_between_eruptions, 1)` years on average.\nWhen rendered, it displays as:\n\n\nBased on data up to and including 1971, eruptions on La Palma happen every 79.8 years on average."
   },
   {
-    "objectID": "slides.html#code-chuncks-for-computations-using-the-lable-and-fig--options",
-    "href": "slides.html#code-chuncks-for-computations-using-the-lable-and-fig--options",
+    "objectID": "slides.html#code-chunks-for-computations-using-the-lable-and-fig--options",
+    "href": "slides.html#code-chunks-for-computations-using-the-lable-and-fig--options",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Code chuncks for computations using the lable and fig- options",
-    "text": "Code chuncks for computations using the lable and fig- options\n\nSo we have already seen the echo option and that we can embeded calculations and references. In this chunck the label option is used to add an identifier to code cell and its output, for example to allow cross referencing. The prefix fig- is required for figure cross references, but the suffix, in this case timeline, is up to you. We’ll get back to Cross References in a moment, but for now the import thing is to understand that the option fig-cap provides the caption text displayed below the figure in the manuscript, and fig-alt provides alt text for the figure, helping your manuscript webpage to meet accessibility guidelines.\nComputations are also a good way to include tables based on data. You can read more about doing this in the Quarto documentation on Tables from Computations.\n\n```{r}\n#| label: fig-timeline\n#| fig-cap: Timeline of recent earthquakes on La Palma\n#| fig-alt: An event plot of the years of the last 8 eruptions on La Palma.\n#| fig-height: 1.5\n#| fig-width: 6\npar(mar = c(3, 1, 1, 1) + 0.1)\nplot(\n  eruptions, rep(0, n_eruptions), \n  pch = \"|\", axes = FALSE\n)\naxis(1)\nbox()\n```"
+    "section": "Code chunks for computations using the lable and fig- options",
+    "text": "Code chunks for computations using the lable and fig- options\n\nSo we have already seen the echo option and that we can embeded calculations and references. In this chunck the label option is used to add an identifier to code cell and its output, for example to allow cross referencing. The prefix fig- is required for figure cross references, but the suffix, in this case timeline, is up to you. We’ll get back to Cross References in a moment, but for now the import thing is to understand that the option fig-cap provides the caption text displayed below the figure in the manuscript, and fig-alt provides alt text for the figure, helping your manuscript webpage to meet accessibility guidelines.\nComputations are also a good way to include tables based on data. You can read more about doing this in the Quarto documentation on Tables from Computations.\n\n```{r}\n#| label: fig-timeline\n#| fig-cap: Timeline of recent earthquakes on La Palma\n#| fig-alt: An event plot of the years of the last 8 eruptions on La Palma.\n#| fig-height: 1.5\n#| fig-width: 6\npar(mar = c(3, 1, 1, 1) + 0.1)\nplot(\n  eruptions, rep(0, n_eruptions), \n  pch = \"|\", axes = FALSE\n)\naxis(1)\nbox()\n```"
   },
   {
     "objectID": "slides.html#citations",
