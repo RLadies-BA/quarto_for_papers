@@ -203,11 +203,25 @@
     "text": "Getting started with a manuscript: create a manuscript project\n\nAll the things that we are going to see can also apply to Journal paper the only difference remain on the complexity and structrure of the folders.\n\n\nStart from scratch\n\nin your terminal write quarto create project manuscript &lt;name&gt;\nthen start adding manuscipt content or…\n\nStart with a sample from https://quarto.org/docs/manuscripts\n\n\n\n\n\n\n\n\n\nTip\n\n\nLearn how to Track your project with Git and host on GitHub for happy publishing."
   },
   {
-    "objectID": "slides.html#lets-get-started",
-    "href": "slides.html#lets-get-started",
+    "objectID": "slides.html#your-turn-option-1",
+    "href": "slides.html#your-turn-option-1",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Let’s get started",
-    "text": "Let’s get started\nIf you wanna follow along the same structure we are going to use, you can copy this GitHub repo.\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
+    "section": "Your Turn! Option 1",
+    "text": "Your Turn! Option 1\n\nAs I asume that maybe not all of you have experience working with git hub we’re gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts. If you are familiarizedf eith github you’ll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section. Go to your RStudio Terminal and create a new project from scratch by tiping the following text.\n\nIf you already have a peper of your own (with differnt r files with code) go to your RStudio Terminal and create a new project from scratch\n\n\nTerminal\n\nquarto create project manuscript indo-rct\n\nCreating project at /Users/mine/indo-rct:\n  - Created _quarto.yml\n  - Created index.qmd\n  - Created references.bib\n ? Open With\n   vscode\n ❯ rstudio\n   (don't open)"
+  },
+  {
+    "objectID": "slides.html#your-turn-option-2",
+    "href": "slides.html#your-turn-option-2",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
+    "section": "Your Turn! Option 2",
+    "text": "Your Turn! Option 2\nIf you wanna follow along the same structure we are going to you can copy the repo from github repo\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
+  },
+  {
+    "objectID": "slides.html#your-turn-redy-steady-go",
+    "href": "slides.html#your-turn-redy-steady-go",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
+    "section": "Your turn!: Redy steady go!",
+    "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
   },
   {
     "objectID": "slides.html#quarto-manuscript-minimal-folder-structure",
