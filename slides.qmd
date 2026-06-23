@@ -311,13 +311,42 @@ Learn how to Track your project with Git and host on GitHub for happy publishing
 :::
 
 
-## Let's get started {.smaller}
+## Your Turn! Option 1
 
-If you wanna follow along the same structure we are going to use, you can copy this GitHub repo.
+::: notes
+As I asume that maybe not all of you have experience working with git hub we're gone practice a semi reproductrivble version of how tob worlk with repoductible manuscripts.
+If you are familiarizedf eith github you'll finde the cmplete worknlow in the Quarto documentation iun the Manusucript section.
+Go to your RStudio Terminal and create a new project from scratch by tiping the following text.
+:::
+
+If you already have a peper of your own (with differnt r files with code) go to your RStudio Terminal and create a new project from scratch
+
+``` {.bash filename="Terminal"}
+quarto create project manuscript indo-rct
+
+Creating project at /Users/mine/indo-rct:
+  - Created _quarto.yml
+  - Created index.qmd
+  - Created references.bib
+ ? Open With
+   vscode
+ ❯ rstudio
+   (don't open)
+```
+
+## Your Turn! Option 2 {.smaller}
+
+If you wanna follow along the same structure we are going to you can copy the repo from github repo
 
 https://github.com/quarto-ext/manuscript-template-rstudio/tree/main
 
 ![](img/manuscript-github-sample.png){fig-align = "center"}
+
+## Your turn!: Redy steady go!
+
+👍 Please sign me with when you are ready.
+
+![](https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif)
 
 
 ## Quarto manuscript: minimal folder structure
