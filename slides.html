@@ -651,8 +651,8 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
 <p>https://github.com/quarto-ext/manuscript-template-rstudio/tree/main</p>
 <p><img data-src="img/manuscript-github-sample.png">{fig-align = “center”}</p>
 </section>
-<section id="your-turn-redy-steady-go" class="slide level2">
-<h2>Your turn!: Redy steady go!</h2>
+<section id="your-turn-ready-steady-go" class="slide level2">
+<h2>Your turn!: Ready, steady, go!</h2>
 <p>👍 Please sign me with when you are ready.</p>
 
 <img data-src="https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif" class="r-stretch"></section>
@@ -954,12 +954,62 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
 </blockquote>
 </div>
 </section>
-<section id="lets-dive-into-the-code-by" class="slide level2">
-<h2>Let’s dive into the code by:</h2>
+<section id="citations-4" class="slide level2">
+<h2>Citations</h2>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Quarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html</p>
+</div>
+</div>
+</div>
+</section>
+<section id="your-turn-add-a-citation-to-your-bib-file-and-use-it" class="slide level2">
+<h2>Your Turn! Add a citation to your bib file and use it</h2>
 <ul>
-<li class="fragment">Adding a citation</li>
-<li class="fragment">Cross-referencing figures and tables.</li>
+<li class="fragment">Go to your bib file and add a citation</li>
+<li class="fragment">Go back to your index.qmd file and use the citation</li>
+<li class="fragment">Render your file and chevck the changes</li>
 </ul>
+</section>
+<section id="your-turn-ready-steady-go-1" class="slide level2">
+<h2>Your turn!: Ready, steady, go!</h2>
+<p>👍 Please sign me with when you are ready.</p>
+
+<img data-src="https://cdn.dribbble.com/userupload/22626419/file/original-bfd96d150105ffcd8e094436725a1125.gif" class="r-stretch"></section>
+<section id="cross-references" class="slide level2">
+<h2>Cross References</h2>
+<aside class="notes">
+<p>Quarto can generate cross references that keep track of numbering and linking for you. The general syntax for a cross reference is an <code>@</code> followed by a <code>label</code>. For example, to reference the timeline figure, you could write: To render the cross references you have to include a word to indicate the type of object being referenced, like “Figure” or “Table”, so this:</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p>Labeled as…</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb10-1"><a></a>@fig-timeline</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Should be use used as</p>
+<div class="fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a></a>Eight eruptions have been recorded since the late 1400s (@fig-timeline).</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>And will look something like</p>
+</div>
+<div class="fragment">
+<blockquote>
+<p>Eight eruptions have been recorded since the late 1400s (Figure 1).</p>
+</blockquote>
+</div>
 </section>
 <section id="cross-references-element-and-prefix" class="slide level2">
 <h2>Cross References element and prefix</h2>
@@ -992,9 +1042,9 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
 <section id="static-figures-and-images" class="slide level2">
 <h2>Static Figures, and Images</h2>
 <p>To include a figure from a file, the markdown syntax looks like:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb10-1"><a></a><span class="al">![Map of La Palma](images/la-palma-map.png)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a></a><span class="al">![Map of La Palma](images/la-palma-map.png)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>By using #fig-name-of-image inside curly braces following the image path you can provide the reader a label for cross references. For eg.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a></a><span class="al">![Map of La Palma](images/la-palma-map.png)</span>{#fig-map fig-alt="A map of the Canary Islands. The second most west island, La Palma, is highlighted."}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a></a><span class="al">![Map of La Palma](images/la-palma-map.png)</span>{#fig-map fig-alt="A map of the Canary Islands. The second most west island, La Palma, is highlighted."}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1016,7 +1066,7 @@ I’m Jesica, a cognitive psychologist with a PhD in Ethical, Humanistic, and So
 <div class="code-with-filename-file">
 <pre><strong>Terminal</strong></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a></a><span class="ex">quarto</span> publish</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14" data-filename="Terminal"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a></a><span class="ex">quarto</span> publish</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Choose GitHub Pages or the platform you prefer.</p>
 <p>You can learn more about publishing at https://quarto.org/docs/publishing/</p>

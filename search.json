@@ -217,11 +217,11 @@
     "text": "Your Turn! Option 2\nIf you wanna follow along the same structure we are going to you can copy the repo from github repo\nhttps://github.com/quarto-ext/manuscript-template-rstudio/tree/main\n{fig-align = “center”}"
   },
   {
-    "objectID": "slides.html#your-turn-redy-steady-go",
-    "href": "slides.html#your-turn-redy-steady-go",
+    "objectID": "slides.html#your-turn-ready-steady-go",
+    "href": "slides.html#your-turn-ready-steady-go",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Your turn!: Redy steady go!",
-    "text": "Your turn!: Redy steady go!\n👍 Please sign me with when you are ready."
+    "section": "Your turn!: Ready, steady, go!",
+    "text": "Your turn!: Ready, steady, go!\n👍 Please sign me with when you are ready."
   },
   {
     "objectID": "slides.html#quarto-manuscript-minimal-folder-structure",
@@ -322,11 +322,32 @@
     "text": "Citations\nAnother common style is to place the citation within parentheses at the end of a sentence. You can achieve this by enclosing the citation syntax in square brackets [. For example,\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano [@marrero2019].\n\nWhen rendered, it displays as:\n\n\nA prior study of the magma systems feeding the volcano proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano (Marrero et al. 2019)."
   },
   {
-    "objectID": "slides.html#lets-dive-into-the-code-by",
-    "href": "slides.html#lets-dive-into-the-code-by",
+    "objectID": "slides.html#citations-4",
+    "href": "slides.html#citations-4",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
-    "section": "Let’s dive into the code by:",
-    "text": "Let’s dive into the code by:\n\nAdding a citation\nCross-referencing figures and tables."
+    "section": "Citations",
+    "text": "Citations\n\n\n\n\n\n\nTip\n\n\nQuarto support differnt syntax variotions to include page numbers, chapters, exclude author names and other cool posibilities. You can learn more about it the Citation documentation at https://quarto.org/docs/authoring/citations.html"
+  },
+  {
+    "objectID": "slides.html#your-turn-add-a-citation-to-your-bib-file-and-use-it",
+    "href": "slides.html#your-turn-add-a-citation-to-your-bib-file-and-use-it",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
+    "section": "Your Turn! Add a citation to your bib file and use it",
+    "text": "Your Turn! Add a citation to your bib file and use it\n\nGo to your bib file and add a citation\nGo back to your index.qmd file and use the citation\nRender your file and chevck the changes"
+  },
+  {
+    "objectID": "slides.html#your-turn-ready-steady-go-1",
+    "href": "slides.html#your-turn-ready-steady-go-1",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
+    "section": "Your turn!: Ready, steady, go!",
+    "text": "Your turn!: Ready, steady, go!\n👍 Please sign me with when you are ready."
+  },
+  {
+    "objectID": "slides.html#cross-references",
+    "href": "slides.html#cross-references",
+    "title": "From data analysis to publication: Reproducible research with R and Quarto",
+    "section": "Cross References",
+    "text": "Cross References\n\nQuarto can generate cross references that keep track of numbering and linking for you. The general syntax for a cross reference is an @ followed by a label. For example, to reference the timeline figure, you could write: To render the cross references you have to include a word to indicate the type of object being referenced, like “Figure” or “Table”, so this:\n\nLabeled as…\n@fig-timeline\nShould be use used as\n\nEight eruptions have been recorded since the late 1400s (@fig-timeline).\nAnd will look something like\n\n\n\nEight eruptions have been recorded since the late 1400s (Figure 1)."
   },
   {
     "objectID": "slides.html#cross-references-element-and-prefix",
