@@ -102,7 +102,7 @@
     "href": "slides.html#lets-dive-in",
     "title": "From data analysis to publication: Reproducible research with R and Quarto",
     "section": "Let’s dive in!",
-    "text": "Let’s dive in!\n\nOpen RStudio\nGo to the terminal\nInstall a journal template: [https://github.com/quarto-journals[(https://github.com/quarto-journals)"
+    "text": "Let’s dive in!"
   },
   {
     "objectID": "slides.html#getting-started-with-a-manuscript-create-a-manuscript-project",
