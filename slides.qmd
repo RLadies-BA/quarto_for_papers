@@ -236,7 +236,7 @@ If you make this change and save index.qmd, you'll see this code now appears in 
 You can find a list of all the code cell options available on the Knitr Code Cell reference page at <https://quarto.org/docs/reference/cells/cells-knitr.html>
 :::
 
-## Code chunks options from YAML
+## Code chunk options from YAML
 
 ![](img/quarto-code-chunck-options-yml.png)
 
